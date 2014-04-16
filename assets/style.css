@@ -43,7 +43,7 @@ h1 {
  	width: 100%;
 	max-width: 1400px;
 	margin: 0 auto -171px;	 
-	background: #efefef url('images/HeaderWithOverlay.png') no-repeat;
+	background: #efefef url('/images/HeaderWithOverlay.png') no-repeat;
 	min-height: 100%;
 	height: auto !important;
 	position: relative;
@@ -122,7 +122,7 @@ img.header-img {
 -------------------------------------------------------------- */
 
 #menu-container {
-	background: transparent url('images/TwoDots1.png') repeat-y right;
+	background: transparent url('/images/TwoDots1.png') repeat-y right;
 	padding-bottom: 8px;
 	
 }
