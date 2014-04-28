@@ -361,6 +361,6 @@ img.left {
     margin-right: 10px;
 }
 
-.home-second-row h1.padleft {
+.home-second-row .padleft {
 	padding-left: 2%;
 }
