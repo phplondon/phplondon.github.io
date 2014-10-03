@@ -1,0 +1,5 @@
+{% comment %}
+    Talks end at 21:00, but the GitHub server is one hour behind, therefore (21 - 1) * 60 * 60 = 72000
+{% endcomment %}
+
+{% assign threshold = site.time | date: '%s' | minus: 72000 %}
