@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div id="home-top-row" class="row">
     <div id="main-image" class="fivecol">
         <img class="main-img" src="/assets/MainImage.png" alt="MainImage">
@@ -8,11 +9,12 @@ layout: default
     <div class="sevencol last">
         <div class="home-main-content">
             <h1>Welcome to PHP London</h1>
-            <p class="purple">PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP profesionals in the London area.</p>
+            <p class="purple">PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP professionals in the London area.</p>
             <p>Our monthly meetup is held at Doggett's Coat and Badge Pub on the first Thursday of every month. With more than 100 attendees you can meet PHP users, developers and recruiters and exchange ideas, talk about code or even try and find yourself a job. Anyone interested in PHP is welcome!</p>
         </div>
     </div>
 </div>
+
 <div id="home-second-row" class="row">
     <div class="sevencol">
         <div class="home-main-content">
@@ -26,35 +28,31 @@ layout: default
             </ul>
         </div>
     </div>
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2>October 2nd 2014</h2>
-            <h3>Chris Hoult</h3>
-            <p></p>
-        </div>
-    </div>
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2>November 6th 2014</h2>
-            <h3>Ciaran McNulty</h3>
-        </div>
-    </div>
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2>December 4th 2014</h2>
-            <h3>Ben Waine</h3>
-        </div>
-    </div>
+
+    {% include get_threshold_time.html %}
+
+    {% for post in site.posts %}
+        {% include get_post_date_time.html %}
+
+        {% if post_date > threshold %}
+            <div class="sixcol">
+                <div class="home-main-content">
+                     {% include talk_snippet.html %}
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+
     <div class="sixcol">
         <div class="home-main-content">
             <h2>Want to speak at PHP London?</h2>
             <h3><a href="https://docs.google.com/a/crowdsurge.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a></h3>
         </div>
     </div>
+
     <div class="sixcol">
         <div class="home-main-content">
             <h2><a href="/archive">Previous Talks</a></h2>
         </div>
     </div>
-
 </div>

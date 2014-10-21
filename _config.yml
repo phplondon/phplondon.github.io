@@ -1,1 +1,11 @@
-permalink: pretty
+permalink: :year/:month/:title
+
+exclude:
+  - vagrant
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Other settings
+safe: true  # Forced by GitHub pages - https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides
+lsi:  false # Forced by GitHub pages - https://help.github.com/articles/using-jekyll-with-pages/#configuration-overrides

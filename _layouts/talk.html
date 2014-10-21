@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+{% assign speaker_without_at = page.speaker | replace: '@', '' %}
+
+<div class="twelvecol">
+    <div class="home-main-content">
+        <h1>{{ page.title }}</h1>
+        <h2>
+            {% assign d = page.date | date: "%-d" %}
+            {% case d %}
+            {% when "1" or "21" or "31" %}{{ d }}st
+            {% when "2" or "22" %}{{ d }}nd
+            {% when "3" or "23" %}{{ d }}rd
+            {% else %}{{ d }}th
+            {% endcase %}
+            {{ page.date | date: "%B" }}
+            {{ page.date | date: "%Y" }}
+        </h2>
+        <h3>{{ site.data.speakers[speaker_without_at].name }}</h3>
+
+        {{ content }}
+
+        {% if page.slides %}
+            View the <a href="{{ page.slides }}">slides</a> from the talk
+        {% endif %}
+
+        <p>
+            {{ site.data.speakers[speaker_without_at].bio }}
+        </p>
+
+        {% if page.meetup %}
+            <a href="{{ page.meetup }}">More information on the Meetup page &gt;&gt;</a>
+        {% endif %}
+    </div>
+</div>
