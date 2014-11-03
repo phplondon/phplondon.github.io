@@ -31,7 +31,7 @@ layout: default
 
     {% include get_threshold_time.html %}
 
-    {% for post in site.posts %}
+    {% for post in site.posts reversed %}
         {% include get_post_date_time.html %}
 
         {% if post_date > threshold %}
