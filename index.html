@@ -16,7 +16,7 @@ layout: default
 </div>
 
 <div id="home-second-row" class="row">
-    <div class="sevencol">
+    <div class="sixcol">
         <div class="home-main-content">
             <h1>Upcoming Meetups</h1>
             <h2>First Thursday of Every Month</h2>
@@ -28,12 +28,21 @@ layout: default
             </ul>
         </div>
     </div>
-
+    <div class="sixcol">
+        <div class="home-main-content">
+            <h2>Want to speak at PHP London?</h2>
+            <h3><a href="https://docs.google.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a></h3>
+        </div>
+    </div>
+    <div class="sixcol">
+        <div class="home-main-content">
+            <h2><a href="/archive">Previous Talks</a></h2>
+            <br><br>
+        </div>
+    </div>
     {% include get_threshold_time.html %}
-
     {% for post in site.posts reversed %}
         {% include get_post_date_time.html %}
-
         {% if post_date > threshold %}
             <div class="sixcol">
                 <div class="home-main-content">
@@ -42,17 +51,13 @@ layout: default
             </div>
         {% endif %}
     {% endfor %}
+</div>
 
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2>Want to speak at PHP London?</h2>
-            <h3><a href="https://docs.google.com/a/crowdsurge.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a></h3>
-        </div>
-    </div>
-
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2><a href="/archive">Previous Talks</a></h2>
-        </div>
-    </div>
+<div id="home-second-row" class="row">
+  <div class="twelvecol">
+      <div class="home-main-content">
+          <h2><a href="/conduct">Code of Conduct</a></h2>
+          <p>PHP London operates a code of conduct to ensure that all attendees are able to enjoy our events. We encourage all attendees to read the <a href="/conduct">Code of Conduct</a> before attending a PHP London event.</p>
+      </div>
+  </div>
 </div>
