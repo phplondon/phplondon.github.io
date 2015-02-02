@@ -26,9 +26,8 @@ layout: default
             View the <a href="{{ page.slides }}">slides</a> from the talk
         {% endif %}
 
-        <p>
-            {{ site.data.speakers[speaker_without_at].bio }}
-        </p>
+        <h3>About {{ site.data.speakers[speaker_without_at].name }}</h3>
+        <p>{{ site.data.speakers[speaker_without_at].bio }}</p>
 
         {% if page.meetup %}
             <a href="{{ page.meetup }}">More information on the Meetup page &gt;&gt;</a>

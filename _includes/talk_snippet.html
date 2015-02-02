@@ -14,6 +14,5 @@
 <h3>{{ site.data.speakers[speaker_without_at].name }}</h3>
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 {{ post.content }}
-<p>
-    {{ site.data.speakers[speaker_without_at].bio }}
-</p>
+<h3>About {{ site.data.speakers[speaker_without_at].name }}</h3>
+<p>{{ site.data.speakers[speaker_without_at].bio }}</p>
