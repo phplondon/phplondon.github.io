@@ -33,25 +33,7 @@ layout: default
             <h3><a href="https://docs.google.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a></h3>
         </div>
     </div>
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2><a href="/archive">Previous Talks</a></h2>
-            <br><br>
-        </div>
-    </div>
-    {% include get_threshold_time.html %}
-    {% for post in site.posts reversed %}
-        {% include get_post_date_time.html %}
-        {% if post_date > threshold %}
-            <div class="sixcol">
-                <div class="home-main-content">
-                     {% include talk_snippet.html %}
-                </div>
-            </div>
-        {% endif %}
-    {% endfor %}
 </div>
-
 <div id="home-second-row" class="row">
   <div class="twelvecol">
       <div class="home-main-content">
