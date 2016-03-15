@@ -1,0 +1,27 @@
+$respond-settings: false !default;
+
+@if ($respond-settings == false) {
+    @warn "Oops! Have you included a respond settings file?"
+}
+
+// Sass Breakpoint Mixin
+@mixin respond($point) {
+    @if $point == medium {
+        @media (min-width: 720px)  { @content; }
+    }
+    @else if $point == large {
+        @media (min-width: 1024px) { @content; }
+    }
+    @else if $point { // allows custom breakpoints
+        @media (min-width: $point) { @content; }
+    }
+    @if $point == not-all{
+        @media not all and (min-width: 600px) { @content; }
+    }
+}
+
+.mobile-touch-overflow,
+.mobile-touch-overflow * {
+    /* some level of transform keeps elements from blinking out of visibility on iOS */
+    -webkit-transform: rotateY(0);
+}
