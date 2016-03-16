@@ -1,4 +1,4 @@
-{% assign speaker_without_at = post.speaker | replace: '@', '' %}
+<!-- {% assign speaker_without_at = post.speaker | replace: '@', '' %}
 
 <h2>
     {% assign d = post.date | date: "%-d" %}
@@ -16,3 +16,13 @@
 {{ post.content }}
 <h3>About {{ site.data.speakers[speaker_without_at].name }}</h3>
 <p>{{ site.data.speakers[speaker_without_at].bio }}</p>
+ -->
+<ul>
+{% for meetup in site.data.meetups %}
+  <li>
+      {{ meetup.month }}
+      {{ meetup.day }}
+      {{ meetup.speaker }}
+  </li>
+{% endfor %}
+</ul>

@@ -2,25 +2,3 @@
 layout:    default
 permalink: archive/
 ---
-
-<div id="home-second-row" class="row">
-    <div class="sevencol">
-        <div class="home-main-content">
-            <h1>Previous Talks</h1>
-        </div>
-    </div>
-
-    {% include get_threshold_time.html %}
-
-    {% for post in site.posts %}
-        {% include get_post_date_time.html %}
-
-        {% if post_date < threshold %}
-            <div class="sixcol">
-                <div class="home-main-content">
-                    {% include talk_snippet.html %}
-                </div>
-            </div>
-        {% endif %}
-    {% endfor %}
-</div>

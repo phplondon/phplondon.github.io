@@ -1,3 +1,12 @@
+.content-area{
+	background:$color-light;
+
+	.cols{
+		padding-top:$header-height/2;
+		padding-bottom:$header-height/2;
+	}
+}
+
 p{
 	margin-bottom:1em;
 	line-height:1.5em;
