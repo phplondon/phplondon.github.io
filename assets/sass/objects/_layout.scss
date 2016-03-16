@@ -22,6 +22,10 @@
         }
     }
 
+.cols > .col{
+    margin:0;
+}
+
 /**
  * 1. Add attribute of class to layout based on position of the sidebar i.e.
  *    sidebar-left for sidebar on the left sidebar-right for sidebar on right
@@ -45,4 +49,16 @@
 
         .page-content{ margin-right:$base-sidebar-width + $base-sidebar-spacing; }
     }
+}
+
+body{
+    padding-top:$header-height;
+}
+
+.span20{
+    width:100%;
+}
+
+.span10{
+    width:50%;
 }

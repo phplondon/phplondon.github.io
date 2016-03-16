@@ -1,23 +1,4 @@
-.page-footer{
-	background-color:$color-footer-background;
-    padding:50px 0 10px 0;
-
-    h6{ margin:0 0 6px 0; }
-
-    p{ margin-bottom:0; }
-
-    ul{
-    	list-style:none;
-    	margin:0 0 20px 0;
-    	padding:0;
-    	color:$color-black;
-
-    	li{
-    		padding-bottom:2px;
-    	}
-    }
-
-    a{
-    	color:inherit;
-    }
+.footer{
+	background-color:$color-brand-primary;
+    padding:20px 0;
 }

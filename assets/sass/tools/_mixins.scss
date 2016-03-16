@@ -70,8 +70,6 @@
 @mixin vertical-align-center{
     position:absolute;
     top:50%;
-    left:0;
-    right:0;
     @include transform(translateY(-50%));
 }
 

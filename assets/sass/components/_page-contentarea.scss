@@ -1,3 +1,18 @@
-.main-container{
-	padding:6em 0;
+p{
+	margin-bottom:1em;
+	line-height:1.5em;
+}
+
+.intro{
+	font-size:1.6rem;
+	line-height:1.4em;
+}
+
+.intro-secondary{
+	font-size:1.1rem;
+	opacity:0.9;
+}
+
+.row__highlight{
+	background:$color-brand-secondary;
 }

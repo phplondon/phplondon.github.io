@@ -16,6 +16,13 @@ h6{
     margin:0 0 0.5em;
 }
 
+h3,
+h4,
+h5,
+h6{
+	text-transform:uppercase;
+}
+
 h1{ @include font-size($font-size-h1); }
 
 h2{ @include font-size($font-size-h2); }
