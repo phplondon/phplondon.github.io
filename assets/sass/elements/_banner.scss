@@ -1,0 +1,8 @@
+.banner{
+	margin-top:-$header-height;
+	padding-top:($header-height*2);
+	height:100vh;
+	background:url(/assets/images/london-blue.png) 0 0 no-repeat;
+	background-size:cover;
+	color:$color-white;
+}
