@@ -6,22 +6,63 @@ weight: 1
 ---
 <div class="banner">
     <div class="wrapper">
-        <div class="cols"><div class="col span10">
+        <div class="cols"><div class="col span12">
                 <p class="intro">PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP professionals.</p>
                 <p class="intro-secondary">Our monthly meetup is held on the first Thursday of every month. With more than 100 attendees you can meet PHP users, developers and recruiters and exchange ideas, talk about code or even try and find yourself a job. Anyone interested in PHP is welcome.</p>
-                <a href="/about" class="button">Find out more</a>
-            </div><div class="col span10">
-                <h2>Our next meetup:</h2>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <ul>
-                    <li>7pm - Informal drinks, snacks, chat</li>
-                    <li>8pm - Talk starts</li>
-                    <li>9pm onwards - more drinks, snacks, chat</li>
-                </ul>
+                <a href="/about" class="button button--white">Find out more</a>
+            </div><div class="col span4"></div><div class="col span8 hero-block">
+                {% for meetup in site.data.meetups limit:1 %}
+                <h4>Our next meetup:</h4>
+                <div class="calendar-container">
+                    <ul class="calendar">
+                        <li class="calendar__month">{{meetup.date  | date: "%B" }}</li>
+                        <li class="calendar__day">{{meetup.date  | date: "%d" }}</li>
+                        <li class="calendar__year">{{meetup.date  | date: "%Y" }}</li>
+                    </ul>
+                    <span class="hero-block__talk"><strong>Talk: </strong>
+                        {{meetup.talk}}
+                    </span>
+                    <span class="hero-block__speaker"><strong>Speaker: </strong>
+                        {% assign speaker = site.data.speakers[meetup.speaker] %}
+                        {{speaker.name}}
+                    </span>
+                </div>
+                <div class="location">
+                    <i class="icon icon--small icon--red icon--pin">
+                        {% include icons/icon-pin.svg %}
+                    </i>
+                    <span class="location__name">
+                        {% assign location = site.data.locations[meetup.location] %}
+                        {{location.name}}
+                    </span>
+                    <span class="location__address">
+                        {% assign location = site.data.locations[meetup.location] %}
+                        <a href="https://maps.google.co.uk/?q={{location.address}}" target="_blank">
+                        {{location.address}}
+                        </a>
+                    </span>
+                </div>
+                {% endfor %}
             </div></div>
     </div>
 </div>
-<div class="wrapper row__light">
+<div class="row--highlight">
+    <div class="wrapper">
+        <div class="cols">
+            <div class="col span8">
+                <h3>
+                    Want to speak at PHP London?
+                    <a href="https://docs.google.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a>
+                </h3>
+            </div><div class="col span8">
+                <h3>Finding us</h3>
+            </div><div class="col span8">
+                <h3>About us</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper row--light">
     <div class="cols">
         <div class="col">
             <h2>Previous meetups</h2>
@@ -42,18 +83,6 @@ weight: 1
                     <span class="meetup-list--speaker">John Smith</span>
                 </li>
             </ul>
-        </div>
-    </div>
-</div>
-<div class="row__highlight">
-    <div class="wrapper">
-        <div class="cols">
-            <div class="col">
-                <h3>
-                    Want to speak at PHP London?
-                    <a href="https://docs.google.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a>
-                </h3>
-            </div>
         </div>
     </div>
 </div>

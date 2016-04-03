@@ -1,5 +1,4 @@
 .content-area{
-	background:$color-light;
 
 	.cols{
 		padding-top:$header-height/2;
@@ -22,6 +21,9 @@ p{
 	opacity:0.9;
 }
 
-.row__highlight{
+.row--light{
+	background:$color-light;
+}
+.row--highlight{
 	background:$color-brand-secondary;
 }

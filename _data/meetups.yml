@@ -1,0 +1,61 @@
+- date: 2016-04-07 19:00
+  url: http://www.meetup.com/phplondon/events/229280501/
+  location: sainsburys
+  speaker: paul-dragoonis
+  talk: "Dockerizing your CI/CD pipelines"
+  synopsis:
+    "This talk is intermediate level and should have a bit of something for everyone wether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger.
+
+    I will demonstrate how building pipelines with Docker differs from traditional pipelines, what steps are involved in migrating from traditional pipelines to docker ones. I will share my experiences, tips & tricks, lessons learned on my journey into Docker land."
+
+- date: 2016-02-04 19:00
+  url: http://www.meetup.com/phplondon/events/228254963/
+  location: doggetts
+  speaker: various
+  talk: "Lightning talks"
+  synopsis:
+    "PHP London is a volunteer organised community group to promote knowledge sharing and best practice amongst PHP developers, web development and business professionals in London. Our regular monthly meeting is on the first Thursday of every month where PHP developers can get together for drinks, food, networking and hear a talk from other members of the group. In order to attend all you need is an interest in PHP."
+
+- date: 2016-01-07 19:00
+  url: http://www.meetup.com/phplondon/events/227802271/
+  location: doggetts
+  speaker: mark-bradley
+  talk: "Imposter Syndrome: Am I Faking It?"
+  synopsis:
+    "Do you feel like you're faking it? like you don't feel good enough to do your job? Feeling like you've blagged your way through your career? Then like me and hundreds of others, you might be suffering from imposter syndrome. During my talk I am going to discuss what imposter syndrome is and how it feels. Then I'm going to talk you through why people suffer from it and how people overcome it. 
+
+    This talk is based on both my personal experiences and those of others. By the end of it I hope you can identify if you are suffering from imposter syndrome and also create a team environment that helps to combat the feeling within your team mates."
+
+- date: 2015-12-03 19:00
+  url: http://www.meetup.com/phplondon/events/227034318/
+  location: doggetts
+  speaker: derick-rethans
+  talk: "PHP 7"
+  synopsis:
+    "With PHP 7 being released today, it is time to show what's in there. Speed, scalar type hints and spaceships - I'll explain them all."
+
+- date: 2015-11-05 19:00
+  url: http://www.meetup.com/phplondon/events/225949094/
+  location: doggetts
+  speaker: andrew-carter
+  talk: "Breaking boundaries with FastCGI"
+  synopsis:
+    "Efficient and performant applications are fantastic; they keep server load, costs and response times low. We can make our web applications more efficient by removing the repetitive bootstrapping process from the request-response cycle.
+
+    How? I hear you ask!
+
+    By using FastCGI we can keep our application alive between requests and vastly improve their performance. The best news is that if you're using a Request-Response framework (such as Symfony) you can easily do this by integrating a simple bundle."
+    
+- date: 2015-10-01 19:00
+  url: http://www.meetup.com/phplondon/events/225391362/
+  location: doggetts
+  speaker: billie-thompson
+  talk: "Kubernetes"
+  synopsis:
+    "During this talk I will give you a guide from a developers perspective of getting code running on Googles container platform Kubernetes. This is a platform we are in progress of migrating to at the Home Office, and this talk will focus on my experiences using it.
+
+    Kubernetes is an open source PaaS platform that you can run internally in your company or run on Google's servers. It's based on Docker, and can manage replication, load balancing and resilience built in. 
+
+    I'm going to guide you through getting your code running on it, including how to create your own docker containers and best practices for doing so. I'm then going to show you how to get those containers running on Kubernetes. I'll also show you how to wire multiple containers together, and discuss how to manage resilience.
+
+    This talk is aimed at developers of all skill levels, and doesn't focus on any particular language. DevOps people who are interested in Kubernetes will also get an overview of the platform, and I will touch on issues such as data replication between nodes."

@@ -1,0 +1,15 @@
+paul-dragoonis:
+    name: Paul Dragoonis
+    url: http://www.ppi.io
+    twitter: dr4goonis
+    github: https://github.com/dragoonis
+    bio:
+      "Paul, from Glasgow, is passionate about software quality, architecture and continuous delivery.
+
+      He spends his time contributing to the PHP project & php.net website, PHP-FIG, many frameworks and open source projects. He’s a member of the PHP-FIG group and lead developer of PPI Framework Engine (www.ppi.io), where he focuses on multi-framework interoperability.
+
+      When not working on software Paul enjoys fishing, martial arts and sleeping"
+
+various:
+    name: Various Speakers
+    bio: "Lightning talks given by a number of different speakers."
