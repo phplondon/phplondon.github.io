@@ -12,6 +12,7 @@ weight: 3
                 <ul class="speaker-list">
                     {% for speaker in site.data.speakers %}
                     <li class="speaker-list--item">
+                        <h4 class="speaker__name">{{speaker}}</h4>
                         <h4 class="speaker__name">{{speaker.name}}</h4>
                         <p class="speaker__bio">{{speaker.bio}}</p>
                         <a target="_blank" href="{{speaker.url}}" class="speaker__url">{{speaker.url}}</a>

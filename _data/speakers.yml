@@ -13,3 +13,21 @@ paul-dragoonis:
 various:
     name: Various Speakers
     bio: "Lightning talks given by a number of different speakers."
+
+derick-rethans:
+    name: Derick Rethans
+    bio: "Bio for Derick"
+
+billie-thompson:
+    name: Billie Thompson
+    bio: "Bio for Billie"
+
+mark-bradley:
+    name: Mark Bradley
+    bio: "Bio for Mark"
+
+andrew-carter:
+    name: Andrew Carter
+    bio: "Andrew is a young developer of open source and commercial software. He graduated from the University of Warwick in 2014 with a first class masters degree in Physics. At Warwick he focused his studies on scientific computer simulations and developing software to run on high performance clusters.
+
+    Since graduating, Andrew has worked commercially on price comparison applications in the insurance and car hire industry. His spare time is invested in the PHPFastCGI project, a performance tool for PHP."

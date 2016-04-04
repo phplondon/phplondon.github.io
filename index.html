@@ -9,16 +9,18 @@ weight: 1
         <div class="cols"><div class="col span12">
                 <p class="intro">PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP professionals.</p>
                 <p class="intro-secondary">Our monthly meetup is held on the first Thursday of every month. With more than 100 attendees you can meet PHP users, developers and recruiters and exchange ideas, talk about code or even try and find yourself a job. Anyone interested in PHP is welcome.</p>
-                <a href="/about" class="button button--white">Find out more</a>
+                <a href="/meetups" class="button button--white">Our meetups</a>
             </div><div class="col span4"></div><div class="col span8 hero-block">
                 {% for meetup in site.data.meetups limit:1 %}
                 <h4>Our next meetup:</h4>
-                <div class="calendar-container">
-                    <ul class="calendar">
-                        <li class="calendar__month">{{meetup.date  | date: "%B" }}</li>
-                        <li class="calendar__day">{{meetup.date  | date: "%d" }}</li>
-                        <li class="calendar__year">{{meetup.date  | date: "%Y" }}</li>
-                    </ul>
+                <div class="meetup-container">
+                    <div class="calendar-container">
+                        <ul class="calendar">
+                            <li class="calendar__month">{{meetup.date | date: "%B" }}</li>
+                            <li class="calendar__day">{{meetup.date | date: "%d" }}</li>
+                            <li class="calendar__year">{{meetup.date | date: "%Y" }}</li>
+                        </ul>
+                    </div>
                     <span class="hero-block__talk"><strong>Talk: </strong>
                         {{meetup.talk}}
                     </span>

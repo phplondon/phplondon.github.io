@@ -24,6 +24,25 @@ p{
 .row--light{
 	background:$color-light;
 }
+
 .row--highlight{
 	background:$color-brand-secondary;
+}
+
+.row--dark{
+	background:#b5d2dd;
+}
+
+.number{
+	display:block;
+	float:left;
+	margin:0 30px 0 0;
+	width:120px;
+	height:120px;
+	font-size:5em;
+	line-height:120px;
+	color:#fff;
+	text-align:center;
+	border:1px solid #fff;
+	border-radius:100%;
 }
