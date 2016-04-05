@@ -4,7 +4,7 @@
   speaker: paul-dragoonis
   talk: "Dockerizing your CI/CD pipelines"
   synopsis:
-    "This talk is intermediate level and should have a bit of something for everyone wether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger.
+    "This talk is intermediate level and should have a bit of something for everyone whether you’re building a standard pipeline (non-docker) or already have a pipeline and looking to see how docker will make it even stronger.
 
     I will demonstrate how building pipelines with Docker differs from traditional pipelines, what steps are involved in migrating from traditional pipelines to docker ones. I will share my experiences, tips & tricks, lessons learned on my journey into Docker land."
 
