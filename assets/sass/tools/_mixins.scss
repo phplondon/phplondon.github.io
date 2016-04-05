@@ -1,0 +1,86 @@
+///*------------------------------------*\
+//    #MIXINS
+//\*------------------------------------*/
+
+// Global mixins available to the entire project. Define file-specific
+// mixins inside the file to which they relate.
+
+// Mixin to create a declaration whose value is a rem unit. Also provide pixel fallback.
+//
+// .simple-usage {
+//   @include rem(padding, 10px);
+// }
+
+@mixin rem($property, $value){
+    #{$property}:$value;
+    #{$property}:rem($value);
+}
+
+/// Mixin to prefix several properties at once
+/// @author Hugo Giraudel
+/// @param {Map} $declarations - Declarations to prefix
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}
+
+// Mixin to drop micro clearfix into a selector.
+//
+// .simple-usage {
+//   @include clearfix();
+// }
+//
+// .detailed-usage {
+//   @include clearfix(important);
+// }
+
+@mixin clearfix($important: false){
+
+    // Determine whether or not to make declarations important.
+    @if ($important == false){
+        $important:null;
+    } @else {
+        $important:!important;
+    }
+
+    &:after{
+        content:"" $important;
+        display:table $important;
+        clear:both $important;
+    }
+
+}
+
+// Generate `:hover` and `:focus` styles in one go.
+@mixin hocus{
+    &:hover,
+    &:focus{
+        @content;
+    }
+}
+
+// Vertical align text
+@mixin vertical-align-center{
+    position:absolute;
+    top:50%;
+    @include transform(translateY(-50%));
+}
+
+// Simple when for aspect ratio
+@mixin aspect-ratio($width, $height) {
+    padding-bottom:$height / $width * 100%;
+}
+
+// Simple when inside mixin
+@mixin when-inside($context){
+    #{$context} &{
+        @content;
+    }
+}

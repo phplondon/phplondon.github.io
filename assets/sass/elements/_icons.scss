@@ -1,0 +1,20 @@
+.icon{
+	display:inline-block;
+}
+
+.icon--small{
+	width:20px;
+}
+
+.icon--red{
+	color:#ff0000;
+	
+	path{
+		fill:#ff0000 !important;
+	}
+}
+
+.icon--pin{
+	float:left;
+	margin:2px 2px 0 0;
+}

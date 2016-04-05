@@ -1,0 +1,39 @@
+$color-white:                           #FFFFFF;
+$color-black:                           #000000;
+$color-grey:                            #E7E7E7;
+$color-brand-primary:                   #262627;
+$color-brand-secondary:                 #31bacd;
+$color-grey-dark:                       #333;
+$color-brand-tertiary:                  #222222;
+
+$color-light:                           #EEEAF2;
+$color-green:                           #0DA05A;
+
+// Reassign literal variables to meaningful ones.
+$color-page-text:                       $color-grey-dark;
+$color-page-background:                 $color-white;
+
+$color-ui:								$color-page-text;
+$color-ui-primary:						$color-brand-secondary;
+$color-ui-secondary:					$color-brand-primary;
+
+$color-btn:                             $color-black;
+$color-btn-primary:                  	$color-ui-primary;
+$color-btn-secondary:                   $color-ui-secondary;
+
+$color-thead-bg:                        $color-brand-primary;
+$color-thead-border:                    $color-white;
+$color-input-focus:                     $color-brand-primary;
+
+$color-toplinks-backgound:				$color-black;
+
+$color-nav:                             $color-grey-dark;
+$color-nav-background-active:           $color-brand-secondary;
+$color-nav-active:                      $color-brand-secondary;
+$color-nav-sub:                         $color-grey-dark;
+$color-nav-sub-background:              $color-brand-secondary;
+
+$color-footer-background:               $color-grey;
+$color-subfooter-background:            $color-black;
+
+$color-icon:							$color-brand-primary;

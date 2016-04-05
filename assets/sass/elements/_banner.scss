@@ -1,0 +1,90 @@
+.banner{
+	padding-top:$header-height/2;
+	min-height:460px;
+	background:url(/assets/images/london-blue.png) 0 -260px no-repeat;
+	background-size:cover;
+	color:$color-white;
+}
+
+.hero-block{
+	padding:25px 30px;
+	background:rgba(38,38,38,0.7);
+
+	.location{
+		margin:10px 0 0 0;
+	}
+}
+
+.meetup-container{
+	min-height:120px;
+	border-top:1px solid;
+	border-bottom:1px solid;
+	border-color:rgba(255,255,255,0.5);
+}
+
+.calendar-container{
+	float:left;
+	margin:0 25px 0 0;
+	padding:15px 0;
+	width:60px;
+}
+
+.calendar{
+
+	padding:0;
+	text-align:center;
+	list-style:none;
+	color:#fff;
+
+	li{
+		margin:1px 0;
+		line-height:1em;
+	}
+}
+
+.calendar__month{
+	font-size:1em;
+}
+
+.calendar__day{
+	font-size:3.6em;
+	font-weight:bold;
+}
+
+.calendar__year{
+	font-size:1.4em;
+	letter-spacing:0.1em;
+}
+
+.location__name{
+	display:block;
+	font-size:13px;
+	font-weight:bold;
+	line-height:1.5em;
+}
+
+.location__address{
+	font-size:12px;
+
+	a{
+		color:inherit;
+	}
+}
+
+.hero-block__talk{
+	padding-top:15px;
+}
+
+.hero-block__talk,
+.hero-block__speaker{
+	display:block;
+	margin:0 0 4px 0;
+	color:#fff;
+
+	strong{
+		display:block;
+		color:#a3cef9;
+		font-weight:normal;
+		font-size:12px;
+	}
+}

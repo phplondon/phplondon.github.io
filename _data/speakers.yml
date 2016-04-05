@@ -1,0 +1,33 @@
+paul-dragoonis:
+    name: Paul Dragoonis
+    url: http://www.ppi.io
+    twitter: dr4goonis
+    github: https://github.com/dragoonis
+    bio:
+      "Paul, from Glasgow, is passionate about software quality, architecture and continuous delivery.
+
+      He spends his time contributing to the PHP project & php.net website, PHP-FIG, many frameworks and open source projects. He’s a member of the PHP-FIG group and lead developer of PPI Framework Engine (www.ppi.io), where he focuses on multi-framework interoperability.
+
+      When not working on software Paul enjoys fishing, martial arts and sleeping"
+
+various:
+    name: Various Speakers
+    bio: "Lightning talks given by a number of different speakers."
+
+derick-rethans:
+    name: Derick Rethans
+    bio: "Bio for Derick"
+
+billie-thompson:
+    name: Billie Thompson
+    bio: "Bio for Billie"
+
+mark-bradley:
+    name: Mark Bradley
+    bio: "Bio for Mark"
+
+andrew-carter:
+    name: Andrew Carter
+    bio: "Andrew is a young developer of open source and commercial software. He graduated from the University of Warwick in 2014 with a first class masters degree in Physics. At Warwick he focused his studies on scientific computer simulations and developing software to run on high performance clusters.
+
+    Since graduating, Andrew has worked commercially on price comparison applications in the insurance and car hire industry. His spare time is invested in the PHPFastCGI project, a performance tool for PHP."

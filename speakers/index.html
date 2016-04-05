@@ -1,0 +1,27 @@
+---
+layout: default
+title: PHP London Speakers
+class: speakers
+weight: 3
+---
+<div class="row__light">
+    <div class="wrapper">
+        <div class="cols">
+            <div class="col span12">
+                <h1>Speakers</h1>
+                <ul class="speaker-list">
+                    {% for speaker in site.data.speakers %}
+                    <li class="speaker-list--item">
+                        <h4 class="speaker__name">{{speaker}}</h4>
+                        <h4 class="speaker__name">{{speaker.name}}</h4>
+                        <p class="speaker__bio">{{speaker.bio}}</p>
+                        <a target="_blank" href="{{speaker.url}}" class="speaker__url">{{speaker.url}}</a>
+                        <a target="_blank" href="https://twitter.com/{{speaker.twitter}}" class="speaker__twitter">@{{speaker.twitter}}</a>
+                        <a target="_blank" href="{{speaker.github}}" class="speaker__github">{{speaker.github}}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

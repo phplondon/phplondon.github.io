@@ -1,0 +1,109 @@
+.header{
+	position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    padding:$header-padding;
+	background:$color-brand-primary;
+}
+
+.header-logo{
+    height:$logo-height;
+    width:auto;
+}
+
+.site-nav{
+    float:right;
+    margin:32px 0 0 0;
+    list-style:none;
+    line-height:0;
+    text-align:right;
+}
+
+    .site-nav--item{
+        display:inline-block;
+        padding:0 14px;
+
+        a{
+            padding:8px 0;
+            font-family:"PT Sans Caption", Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size:$base-font-size;
+            font-weight:500;
+            text-transform:uppercase;
+            letter-spacing:0.26em;
+            color:$color-white;
+        }
+    }
+
+    .site-nav--item__highlight a{
+        padding-left:12px;
+        padding-right:9px;
+        border:1px solid $color-white;
+        border-radius:$base-radius;
+    }
+
+.main-menu__toggle{
+    float:right;
+    margin:$main-menu-toggle-postion 0 0 0;
+    padding:0;
+    cursor:pointer;
+    border:none;
+    background:none;
+    opacity:0.5;
+
+    .icon-bar{
+        position:relative;
+        display:block;
+        width:$main-menu-toggle-width;
+        height:$main-menu-toggle-bar-height;
+        margin:$main-menu-toggle-bar-spacing;
+        background:$color-black;
+        @include border-radius($main-menu-toggle-bar-radius);
+        @include transition(opacity, transform, $main-menu-toggle-bar-time);
+        @include prefix((
+            transition-timing-function: cubic-bezier(0.5, -0.5, 0.5, 1.5)
+        ), webkit moz);
+
+        .page-head.open &:nth-child(1){
+            @include transform(translateY(13px));
+            @include transform(rotate(135deg));
+            top:$main-menu-toggle-bar-open-postion;
+        }
+
+        .page-head.open &:nth-child(2){
+            opacity:0;
+        }
+
+        .page-head.open &:nth-child(3){
+            @include transform(translateY(-13px));
+            @include transform(rotate(-135deg));
+            bottom:$main-menu-toggle-bar-open-postion;
+        }
+    }
+
+    @include respond(large){
+        display:none;
+    }
+}
+
+.main-menu{
+    display:none;
+
+    @include respond(large) {
+        display:inline-block;
+    }
+}
+
+.site-nav__home{
+	display:inline-block;
+	margin:$header-padding auto;
+
+    @include respond(large) {
+        float:left;
+    }
+
+	img{
+		display:block;
+		max-width:100%;
+	}
+}

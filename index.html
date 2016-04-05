@@ -1,44 +1,90 @@
 ---
 layout: default
+title: PHP London - Meetup for PHP developers
+class: home
+weight: 1
 ---
-
-<div id="home-top-row" class="row">
-    <div id="main-image" class="fivecol">
-        <img class="main-img" src="/assets/MainImage.png" alt="MainImage">
+<div class="banner">
+    <div class="wrapper">
+        <div class="cols"><div class="col span12">
+                <p class="intro">PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP professionals.</p>
+                <p class="intro-secondary">Our monthly meetup is held on the first Thursday of every month. With more than 100 attendees you can meet PHP users, developers and recruiters and exchange ideas, talk about code or even try and find yourself a job. Anyone interested in PHP is welcome.</p>
+                <a href="/meetups" class="button button--white">Our meetups</a>
+            </div><div class="col span4"></div><div class="col span8 hero-block">
+                {% for meetup in site.data.meetups limit:1 %}
+                <h4>Our next meetup:</h4>
+                <div class="meetup-container">
+                    <div class="calendar-container">
+                        <ul class="calendar">
+                            <li class="calendar__month">{{meetup.date | date: "%B" }}</li>
+                            <li class="calendar__day">{{meetup.date | date: "%d" }}</li>
+                            <li class="calendar__year">{{meetup.date | date: "%Y" }}</li>
+                        </ul>
+                    </div>
+                    <span class="hero-block__talk"><strong>Talk: </strong>
+                        {{meetup.talk}}
+                    </span>
+                    <span class="hero-block__speaker"><strong>Speaker: </strong>
+                        {% assign speaker = site.data.speakers[meetup.speaker] %}
+                        {{speaker.name}}
+                    </span>
+                </div>
+                <div class="location">
+                    <i class="icon icon--small icon--red icon--pin">
+                        {% include icons/icon-pin.svg %}
+                    </i>
+                    <span class="location__name">
+                        {% assign location = site.data.locations[meetup.location] %}
+                        {{location.name}}
+                    </span>
+                    <span class="location__address">
+                        {% assign location = site.data.locations[meetup.location] %}
+                        <a href="https://maps.google.co.uk/?q={{location.address}}" target="_blank">
+                        {{location.address}}
+                        </a>
+                    </span>
+                </div>
+                {% endfor %}
+            </div></div>
     </div>
-    <div class="sevencol last">
-        <div class="home-main-content">
-            <h1>Welcome to PHP London</h1>
-            <p class="purple">PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP professionals in the London area.</p>
-            <p>Our monthly meetup is held at Doggett's Coat and Badge Pub on the first Thursday of every month. With more than 100 attendees you can meet PHP users, developers and recruiters and exchange ideas, talk about code or even try and find yourself a job. Anyone interested in PHP is welcome!</p>
+</div>
+<div class="row--highlight">
+    <div class="wrapper">
+        <div class="cols">
+            <div class="col span8">
+                <h3>
+                    Want to speak at PHP London?
+                    <a href="https://docs.google.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a>
+                </h3>
+            </div><div class="col span8">
+                <h3>Finding us</h3>
+            </div><div class="col span8">
+                <h3>About us</h3>
+            </div>
         </div>
     </div>
 </div>
-<div id="home-second-row" class="row">
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h1>Upcoming Meetups</h1>
-            <h2>First Thursday of Every Month</h2>
-            <h3><a href="http://www.nicholsonspubs.co.uk/doggettscoatandbadgesouthbanklondon/">Doggett's Coat and Badge Pub</a></h3>
-            <ul>
-                <li>7pm - Informal drinks, snacks, chat</li>
-                <li>8pm - Talk starts</li>
-                <li>9pm onwards - more drinks, snacks, chat</li>
+<div class="wrapper row--light">
+    <div class="cols">
+        <div class="col">
+            <h2>Previous meetups</h2>
+            <ul class="meetup-list">
+                <li class="meetup-list--item">
+                    <span class="date">February</span>
+                    <span class="meetup-list--talk">Lorem Ipsum Dolor Sit Amet</span>
+                    <span class="meetup-list--speaker">John Smith</span>
+                </li>
+                <li class="meetup-list--item">
+                    <span class="date">January</span>
+                    <span class="meetup-list--talk">Lorem Ipsum Dolor Sit Amet</span>
+                    <span class="meetup-list--speaker">John Smith</span>
+                </li>
+                <li class="meetup-list--item">
+                    <span class="date">December</span>
+                    <span class="meetup-list--talk">Lorem Ipsum Dolor Sit Amet</span>
+                    <span class="meetup-list--speaker">John Smith</span>
+                </li>
             </ul>
         </div>
     </div>
-    <div class="sixcol">
-        <div class="home-main-content">
-            <h2>Want to speak at PHP London?</h2>
-            <h3><a href="https://docs.google.com/forms/d/19kV8XAEU_UTyNPGojk1g6Ft6ULnUOuGzg30fkUPtkY0/viewform">Let us know here</a></h3>
-        </div>
-    </div>
-</div>
-<div id="home-second-row" class="row">
-  <div class="twelvecol">
-      <div class="home-main-content">
-          <h2><a href="/conduct">Code of Conduct</a></h2>
-          <p>PHP London operates a code of conduct to ensure that all attendees are able to enjoy our events. We encourage all attendees to read the <a href="/conduct">Code of Conduct</a> before attending a PHP London event.</p>
-      </div>
-  </div>
 </div>
