@@ -12,13 +12,16 @@
         <header class="header">
             <div class="wrapper">
                 <div class="cols">
-                    <div class="col span24">
+                    <div class="col span24 responsive">
                         <a href="/" rel="Home" class="inline-block">
                             <img src="/assets/images/php-london.png" alt="PHP London Logo" class="header-logo">
                         </a>
+                        <div class="nav-toggle">
+                            <div class="icon-menu"> <span class="line line-1"></span> <span class="line line-2"></span> <span class="line line-3"></span> </div>
+                        </div>
                         <ul class="site-nav">
                             <li class="site-nav--item"><a href="/meetups">Meetups</a></li>
-                            <li class="site-nav--item"><a href="/sponsor">Sponsor</a></li>
+                            <li class="site-nav--item"><a href="/sponsors">Sponsor</a></li>
                             <li class="site-nav--item"><a href="http://jobs.phplondon.org">Job board</a></li>
                             <li class="site-nav--item site-nav--item__highlight"><a href="/get-involved">Get involved</a></li>
                         </ul>
@@ -42,5 +45,19 @@
             </div>
         </footer>
         {% include analytics.html %}
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script>
+            $(function() {
+                var html = $('html, body');
+                var navContainer = $('.site-nav');
+                var navToggle = $('.nav-toggle');
+                navToggle.on('click', function(e) {
+                    var $this = $(this);
+                    e.preventDefault();
+                    $this.toggleClass('is-active');
+                    navContainer.toggleClass('is-visible');
+                });
+            });
+        </script>
     </body>
 </html>
