@@ -2,5 +2,4 @@ _site
 vagrant/.vagrant
 .DS_Store
 node_modules
-assets/css/screen.css
 Gemfile.lock
