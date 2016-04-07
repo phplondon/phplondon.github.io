@@ -4,6 +4,12 @@ a{
     @include transition(color .3s ease);
 
     @include hocus() {
-        color:$color-brand-secondary;
+        color:$color-brand-tertiary;
     }
+}
+
+p a,
+h2 a,
+h3 a{
+	border-bottom:1px dotted $color-brand-secondary;
 }
