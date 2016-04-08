@@ -1,4 +1,9 @@
 .footer{
 	background-color:$color-brand-primary;
     padding:20px 0;
+    color:$color-white;
+
+    a{
+    	color:$color-brand-secondary;
+    }
 }
