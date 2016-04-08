@@ -4,7 +4,7 @@ var gutil = require('gulp-util');
 var watch = require('gulp-watch');
 var sass = require('gulp-sass');
 var notify = require('gulp-notify');
-var minifycss = require('gulp-minify-css');
+var gulpcleancss = require('gulp-clean-css');
 
 var sassBuild = function () {
     gulp.src('assets/sass/**.scss')
