@@ -14,6 +14,7 @@ $header-padding:	 	20px;
 
 // To be changed once there is a new logo
 $logo-height:		 			62px;
+$logo-height-mobile:		 	40px;
 
 $main-menu-toggle-width:    	25px;
 $main-menu-toggle-bar-height:   3px;
@@ -35,6 +36,10 @@ $main-menu-toggle-postion:(
 
 $header-height:(
 	($logo-height + ($header-padding * 2))
+);
+
+$header-height-mobile:(
+	($logo-height-mobile + ($header-padding * 2))
 );
 
 // Responsive settings
