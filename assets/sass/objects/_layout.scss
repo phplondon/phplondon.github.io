@@ -52,7 +52,11 @@
 }
 
 body{
-    padding-top:$header-height;
+    padding-top:$header-height-mobile;
+
+    @include respond(large){
+        padding-top:$header-height;
+    }
 }
 
 .span24{
