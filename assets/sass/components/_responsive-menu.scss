@@ -1,122 +1,72 @@
-@media (min-width: 992px) {
-    .nav-toggle {
-        display: none;
+.site-nav--item__highlight a{
+    padding-left:0;
+    padding-right:0;
+    border:0;
+    border-radius:0;
+}
+
+.nav-toggle{
+    cursor:pointer;
+    line-height:1;
+    display:inline-block;
+    padding:10px;
+    border:0;
+    background-color:#31BACD;
+    position:absolute;
+    right:25px;
+
+    @include respond(large){
+        display:none;
     }
 }
 
-@media (max-width: 640px) {
-    .nav-toggle {
-        cursor: pointer;
-        line-height: 1;
-        display: inline-block;
-        padding: 10px;
-        border: 0;
-        background-color: #31bacd;
-        position: absolute;
-        right: 25px;
+.icon-menu{
+    position:relative;
+    display:inline-block;
+    width:28px;
+    height:20px;
+    vertical-align:middle;
+    fill:none;
+
+    .line{
+        position:absolute;
+        left:0;
+        display:block;
+        width:100%;
+        height:4px;
+        background:#FFFFFF;
+        @include transition(all, 0.25s);
+        @include prefix((
+            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1)
+        ), webkit moz);
     }
-}
 
-@media (min-width: 641px) and (max-width: 991px) {
+    .line-1{
+        top:0;
 
-    .nav-toggle {
-        cursor: pointer;
-        line-height: 1;
-        display: inline-block;
-        padding: 15px;
-        border: 0;
-        background: #31bacd;
-        position: absolute;
-        right: 25px;
-    }
-}
-
-@media (max-width: 991px) {
-
-    .site-nav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        background: #262627;
-        top: 100px;
-        position: absolute;
-        left: 0;
-        display: none;
-
-        li {
-            width: 100%;
-            text-align: center;
-            padding: 25px 0 20px 0;
-            border-top: 1px solid #ffffff;
+        .is-active &{
+            -webkit-transform:translateY(8px) translateX(0) rotate(45deg);
+            -ms-transform:translateY(8px) translateX(0) rotate(45deg);
+            transform:translateY(8px) translateX(0) rotate(45deg);
         }
     }
 
-    .site-nav--item__highlight a {
-        padding-left: 0;
-        padding-right: 0;
-        border: 0;
-        border-radius: 0;
-    }
+    .line-2{
+        top:50%;
+        margin-top:-2px;
 
-    .site-nav.is-visible {
-        display: block;
-    }
-
-    .icon-menu {
-        position: relative;
-        display: inline-block;
-        width: 28px;
-        height: 20px;
-        vertical-align: middle;
-        fill: none;
-
-        .line {
-            position: absolute;
-            left: 0;
-            display: block;
-            width: 100%;
-            height: 4px;
-            -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
-            -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-            transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
-            background: #fff;
-        }
-
-        .line-1 {
-            top: 0;
-        }
-        .line-2 {
-            top: 50%;
-            margin-top: -2px;
-        }
-        .line-3 {
-            bottom: 0;
-        }
-  }
-
-    .is-active {
-        .icon-menu {
-            .line-1 {
-                -webkit-transform: translateY(8px) translateX(0) rotate(45deg);
-                -ms-transform: translateY(8px) translateX(0) rotate(45deg);
-                transform: translateY(8px) translateX(0) rotate(45deg);
-            }
-            .line-2 {
-                opacity: 0;
-            }
-            .line-3 {
-                -webkit-transform: translateY(-8px) translateX(0) rotate(-45deg);
-                -ms-transform: translateY(-8px) translateX(0) rotate(-45deg);
-                transform: translateY(-8px) translateX(0) rotate(-45deg);
-            }
+        .is-active &{
+            opacity:0;
         }
     }
 
-    header {
-        .responsive {
-            padding:0;
+    .line-3{
+        bottom:0;
+
+        .is-active &{
+            -webkit-transform:translateY(-8px) translateX(0) rotate(-45deg);
+            -ms-transform:translateY(-8px) translateX(0) rotate(-45deg);
+            transform:translateY(-8px) translateX(0) rotate(-45deg);
         }
     }
 }
