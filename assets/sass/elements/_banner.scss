@@ -1,9 +1,13 @@
 .banner{
 	padding-top:$header-height/2;
 	min-height:460px;
-	background:url(/assets/images/london-blue.png) 0 -260px no-repeat;
+	background:url(/assets/images/london-blue.png) no-repeat;
 	background-size:cover;
 	color:$color-white;
+
+	@include respond(large){
+		background-position:0 -260px;
+	}
 }
 
 .hero-block{
@@ -40,20 +44,20 @@
 		margin:1px 0;
 		line-height:1em;
 	}
-}
 
-.calendar__month{
-	font-size:1em;
-}
+	&__month{
+		font-size:1em;
+	}
 
-.calendar__day{
-	font-size:3.6em;
-	font-weight:bold;
-}
+	&__day{
+		font-size:3.6em;
+		font-weight:bold;
+	}
 
-.calendar__year{
-	font-size:1.4em;
-	letter-spacing:0.1em;
+	&__year{
+		font-size:1.4em;
+		letter-spacing:0.1em;
+	}
 }
 
 .location__name{
