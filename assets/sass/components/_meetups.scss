@@ -12,38 +12,38 @@
 		font-size:1.4em;
 		color:$color-brand-secondary;
 	}
-}
 
-.meetup-hightlight__details{
-	margin-left:13%;
-	width:87%;
-}
+	&__details{
+		margin-left:13%;
+		width:87%;
+	}
 
-.meetup-highlight__talk{
-	line-height:0.6em;
+	&__talk{
+		line-height:0.6em;
+	}
 }
 
 .meetup-list{
 	padding-top:10px !important;
-}
 
-.meetup-list__item{
-	padding-bottom:30px;
-}
+	&__item{
+		padding-bottom:30px;
+	}
 
-.meetup-list__date{
-	display:block;
-	color:$color-brand-secondary;
-}
+	&__date{
+		display:block;
+		color:$color-brand-secondary;
+	}
 
-.meetup-list__talk{
-	display:block;
-	font-weight:bold;
-	font-size:1.1em;
-	color:$color-brand-primary;
-}
+	&__talk{
+		display:block;
+		font-weight:bold;
+		font-size:1.1em;
+		color:$color-brand-primary;
+	}
 
-.meetup-list__speaker{
-	display:block;
-	color:$color-brand-tertiary;
+	&__speaker{
+		display:block;
+		color:$color-brand-tertiary;
+	}
 }
