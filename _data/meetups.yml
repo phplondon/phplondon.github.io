@@ -1,3 +1,15 @@
+- date: 2016-05-05 19:00
+  url: http://www.meetup.com/phplondon/events/229280501/
+  location: sainsburys
+  speaker: stu-herbert
+  talk: "Shipping Faster With Storyplayer"
+  synopsis:
+    "In the Autumn of 2015, Stuart took on a project to upgrade a payment system - and to deliver it in time for Christmas. He had to build out the new features for a code base he'd never worked on before, which relied heavily on manual testing, with a team who were new to Zend Framework 2. Oh, and he had to do this whilst the original authors of the gateway continued to work on it too - and their work had priority over his.
+
+    What was the secret ingredient that made this possible? Storyplayer, the open-source functional test tool.
+
+    In this talk, Stuart will tell what he can of this recent war story, and show you how his team shipped faster by using Storyplayer. He'll share with you what worked, what didn't, and how you can ship faster too."
+
 - date: 2016-04-07 19:00
   url: http://www.meetup.com/phplondon/events/229280501/
   location: sainsburys
