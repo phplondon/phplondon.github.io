@@ -3,9 +3,13 @@
 
 	.calendar-container{
 		float:left;
-		width:9%;
+		width:25%;
 		border-top:1px solid $color-brand-secondary;
 		border-bottom:1px solid $color-brand-secondary;
+
+		@include respond(large){
+			width:10%;
+		}
 	}
 
 	.calendar{
@@ -15,11 +19,20 @@
 
 	&__details{
 		margin-left:13%;
-		width:87%;
+		width:80%;
+
+		@include respond(large){
+			width:87%;
+			float: left;
+		}
 	}
 
 	&__talk{
-		line-height:0.6em;
+		line-height:1.2em;
+
+		@include respond(large){
+			line-height:1em;
+		}
 	}
 }
 
@@ -45,5 +58,10 @@
 	&__speaker{
 		display:block;
 		color:$color-brand-tertiary;
+	}
+
+	&__link{
+		display:block;
+		color:$color-brand-secondary;
 	}
 }

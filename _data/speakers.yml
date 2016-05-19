@@ -1,3 +1,11 @@
+rik-heywood:
+    name: Rik Heywood
+    url: http://www.pod-point.com
+    twitter: RikHeywood
+    github: https://github.com/podpoint
+    bio:
+      "Rik is the director of software engineering at POD Point (http://www.pod-point.com) where he and his team build awesome websites to help manage their infrastructure of charge points for electric cars, using PHP 7 and Laravel 5.2. He's been working with PHP since version 3 and has been building stuff for the web since around 2000. Prior to that, he worked in the games industry where he developed the 3D rendering technology that powered the PC and console games of the 90s."
+
 stu-herbert:
     name: Stuart Herbert
     url: http://www.stuartherbert.com
