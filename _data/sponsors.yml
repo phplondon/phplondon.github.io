@@ -1,0 +1,17 @@
+- name: Ayima
+  url: http://www.ayima.com
+  logo_path: ayima.png
+  blurb:
+    "for sponsoring the food and drinks."
+
+- name: JetBrains
+  url: http://www.jetbrains.com
+  logo_path: jetbrains.png
+  blurb:
+    "for providing our attendees with prizes."
+
+- name: Sainsburys
+  url: http://www.sainsburys.com
+  logo_path: sainsburys.png
+  blurb:
+    "for hosting the meetings at their fantastic facilities."

@@ -1,0 +1,39 @@
+---
+layout: default
+title: PHP London Sponsors
+class: sponsors
+weight: 2
+---
+
+<div class="row">
+    <div class="wrapper">
+        <div class="cols">
+            <div class="col span24">
+                <h1>Our Sponsors</h1>
+                <p>As well as our members, PHP London couldn't exist without the kind help and support of our sponsors.</p>
+                <ul class="sponsors-list cols">
+                    {% for sponsor in site.data.sponsors %}
+                    <li class="sponsors-list__item col span6">
+                        <div class="sponsors-highlight">
+                            <div class="sponsors-hightlight__details">
+                                <a href="{{sponsor.url}}" title="{{sponsor.name}}" target="_blank">
+                                    <img src="/assets/logos/{{sponsor.logo_path}}" />
+                                </a>
+                                <p>
+                                    <a href="{{sponsor.url}}" title="{{sponsor.name}}" target="_blank">
+                                        {{sponsor.name}}
+                                    </a>
+                                    {{sponsor.blurb}}
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+                <p>
+                    Want to help us out? <a href="mailto:sam@phplondon.org">Get in touch!</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
