@@ -4,7 +4,7 @@
   speaker: rik-heywood
   talk: "How I built a commercial side project, on the Tube"
   synopsis:
-    "Join Rik Heywood as he will be talking about a side project that he has been working on the last few years, called Team Absence (http://www.teamabsense.com). It is a PHP 7, Laravel 5.2 project that he has built almost entirely on the tube during his daily commute.
+    "Join Rik Heywood as he will be talking about a side project that he has been working on the last few years, called Team Absence (https://teamabsence.com). It is a PHP 7, Laravel 5.2 project that he has built almost entirely on the tube during his daily commute.
 
     He will be talking through the process of building this project, which has variously been a playground for him to try out new ideas, a fun way to spend his time, or a way to teach himself about new versions of Laravel before subjecting his team to the change.
 
