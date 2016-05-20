@@ -55,14 +55,16 @@ weight: 2
             <div class="col span24">
 		        <h2>Past meetups</h2>
 		        <ul class="meetup-list cols">
-		        {% for meetup in site.data.meetups offset:1 %}<li class="meetup-list__item col span8">
+		        {% for meetup in site.data.meetups offset:1 %}
+					<li class="meetup-list__item col span8">
 		        	{% assign speaker = site.data.speakers[meetup.speaker] %}
 				    	<span class="meetup-list__date">{{ meetup.date | date: "%d %B %Y" }}</span>
 				    	<span class="meetup-list__talk">{{ meetup.talk }}</span>
 				    	<span class="meetup-list__speaker">{{ speaker.name }}</span>
 				    	<p>{{meetup.synopsis | truncatewords:14}}</p>
 				    	<a class="meetup-list__link" href="{{ meetup.url }}">Details</a>
-				  </li>{% endfor %}
+				  	</li>
+				{% endfor %}
 				</ul>
 		    </div>
 		</div>

@@ -1,3 +1,18 @@
+- date: 2016-06-02 19:00
+  url: http://www.meetup.com/phplondon/events/231255954/
+  location: sainsburys
+  speaker: rik-heywood
+  talk: "How I built a commercial side project, on the Tube"
+  synopsis:
+    "Join Rik Heywood as he will be talking about a side project that he has been working on the last few years, called Team Absence (http://www.teamabsense.com). It is a PHP 7, Laravel 5.2 project that he has built almost entirely on the tube during his daily commute.
+
+    He will be talking through the process of building this project, which has variously been a playground for him to try out new ideas, a fun way to spend his time, or a way to teach himself about new versions of Laravel before subjecting his team to the change.
+
+    It's only recently turned into an actual serious attempt to ship something, so he also wants to talk about what had to change to make that possible.
+
+    Finally, building something real in 30 minute bursts, in a cramped and noise environment has it's own challenges. He'd love people to walk away at the end of the talk believing that, yes, they can try and build that great idea in the back of their head - it can be done."
+
+
 - date: 2016-05-05 19:00
   url: http://www.meetup.com/phplondon/events/229280501/
   location: sainsburys
