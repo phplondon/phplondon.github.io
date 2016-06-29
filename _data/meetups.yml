@@ -1,3 +1,14 @@
+- date: 2016-07-07 19:00
+  url: http://www.meetup.com/phplondon/events/231934793/
+  location: sainsburys
+  speaker: david-mckay
+  talk: "Docker in Production"
+  synopsis:
+    "Docker - the awesome utility that allows you to create a single, runnable, distributable application... but is it really that awesome?
+
+    In this talk David will discuss some of the common pitfalls and hurdles that one must navigate to have an enjoyable and fruitful relationship with Docker; giving you the confidence to take that relationship to the next stage: production."
+
+
 - date: 2016-06-02 19:00
   url: http://www.meetup.com/phplondon/events/231255954/
   location: sainsburys

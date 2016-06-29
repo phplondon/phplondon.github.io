@@ -18,8 +18,8 @@
 	}
 
 	&__details{
-		margin-left:13%;
 		width:80%;
+		float: left;
 
 		@include respond(large){
 			width:87%;
@@ -67,5 +67,20 @@
 	&__link{
 		display:block;
 		color:$color-brand-secondary;
+	}
+}
+
+
+.meetup-hightlight__details {
+	//margin-left:13%;
+	width:100%;
+	float: left;
+	margin-top: 20px;
+
+
+	@include respond(large){
+		width:85%;
+		float: left;
+		margin-top: 0;
 	}
 }
