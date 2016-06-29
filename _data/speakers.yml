@@ -1,3 +1,13 @@
+david-mckay:
+    name: David McKay
+    url: http://www.pod-point.com
+    twitter: rawkode
+    github: https://github.com/rawkode
+    bio:
+      "David McKay, a practising Stoic; and organiser of Docker Glasgow and ScotlandPHP, is a software and technology professional with a keen interest in event-driven-service-oriented architectures. When asked how many years of experience he had, he politely refused. 
+
+      Explaining that experience is measured by points of inflection, not years of trial."
+
 rik-heywood:
     name: Rik Heywood
     url: http://www.pod-point.com
