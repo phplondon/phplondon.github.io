@@ -56,6 +56,7 @@ body{
 
     @include respond(large){
         padding-top:$header-height;
+        height: 100%;
     }
 }
 

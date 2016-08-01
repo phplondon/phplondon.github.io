@@ -3,7 +3,21 @@
     padding:20px 0;
     color:$color-white;
 
+    @include respond(large) {
+      margin: 0 auto -110px;
+    }
+
     a{
     	color:$color-brand-secondary;
     }
+}
+
+.content-area {
+
+  .footer {
+    .cols {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
 }

@@ -46,3 +46,12 @@ p{
 	border:1px solid #fff;
 	border-radius:100%;
 }
+
+#main {
+	@include respond(large) {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0px auto -110px;
+	}
+}
