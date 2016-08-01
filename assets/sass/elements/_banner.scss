@@ -6,7 +6,7 @@
 	color:$color-white;
 
 	@include respond(large){
-		background-position:0 -260px;
+		background-position:0 -760px;
 		padding-top: $header-height/2;
 	}
 }
