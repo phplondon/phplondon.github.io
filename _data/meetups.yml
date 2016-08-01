@@ -1,3 +1,26 @@
+- date: 2016-08-04 19:00
+  url: http://www.meetup.com/phplondon/events/232965685/
+  location: sainsburys
+  speaker: amo-chohan
+  talk: "Getting started with Test-Driven Laravel"
+  synopsis:
+    <br />"Amo was recently asked by a developer who is new to the Laravel framework, and the PHP language in general, where they should begin with her first project using the framework. <br /><br />
+
+    'Should I define all of my routes up-front?' <br /><br />
+
+    'How about I start with my views? But then, how will I render them? Maybe I need controllers first?' <br /><br />
+
+    'Perhaps I should figure out which models I'll need and go from there?' <br /><br />
+
+    The conversion reminded Amo of when he first begun adopting test-driven development in projects. It can seem overwhelming at first, especially as there's no simple 'how-to' guide or industry standard methodology to take you through an entire feature's lifecycle. <br />
+
+    Fortunately, Laravel not only makes it easy to get started, but to use a test-driven approach which guides your application's development. <br /><br />
+
+    Test-driven development, or TDD often divides opinions within the PHP community. Some of the common comments I often hear from developers, who have not adopted TDD are, 'My boss would never allow more time for testing', 'It takes too long to write tests', 'It's too difficult to learn how to test'.<br /><br />
+
+    This talk aims to highlight some of the benefits of how TDD with Laravel can drive your application's design, and improve your code, without needing additional time commitment."
+
+
 - date: 2016-07-07 19:00
   url: http://www.meetup.com/phplondon/events/231934793/
   location: sainsburys
