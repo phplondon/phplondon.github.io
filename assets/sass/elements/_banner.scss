@@ -6,9 +6,10 @@
 	color:$color-white;
 
 	@include respond(large){
-		background-position:0 -760px;
+		background-position:0 -260px;
 		padding-top: $header-height/2;
 	}
+
 }
 
 .hero-block{
