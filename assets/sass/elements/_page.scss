@@ -4,4 +4,5 @@ html{
     @include font-family(primary);
     background-color:$color-page-background;
     color:$color-page-text;
+    height: 100%;
 }
