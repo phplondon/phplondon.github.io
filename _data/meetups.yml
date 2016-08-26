@@ -1,3 +1,14 @@
+- date: 2016-09-01 19:00
+  url: http://www.meetup.com/phplondon/events/233637210/
+  location: sainsburys
+  speaker: derick-rethans
+  talk: "Grown-up MongoDB: Schema Design"
+  synopsis:
+    "<br />Although MongoDB is a non-relational database, it is still very important that you store your data in an optimal way. This presentation make you grow up from just starting with MongoDB, to a seasoned user, by teaching you how to design your data schema according to your application's needs. This requires a different mind set than designing for a relational database. <br /><br />
+
+    Besides schema design techniques, I will also cover how to pick indexes, different types of indexes, and way to find out why queries are potentially not as fast as they could be."
+
+
 - date: 2016-08-04 19:00
   url: http://www.meetup.com/phplondon/events/232965685/
   location: sainsburys
