@@ -6,8 +6,7 @@ amo-chohan:
     bio:
       "Amo is the lead developer at energy commodities research firm, Energy Aspects and oversees the development of the systems used across three international sites. <br /><br />
 
-      He has worked in-house and consulted for a number of companies throughout the UK, Europe and Japan and has a career in web development spanning over 10 years. A self-professed test-driven development and Laravel evangelist, and novice pilot.
-      "
+      He has worked in-house and consulted for a number of companies throughout the UK, Europe and Japan and has a career in web development spanning over 10 years. A self-professed test-driven development and Laravel evangelist, and novice pilot."
 
 david-mckay:
     name: David McKay
@@ -53,7 +52,13 @@ various:
 
 derick-rethans:
     name: Derick Rethans
-    bio: "Bio for Derick"
+    url: https://derickrethans.nl
+    twitter: derickr
+    github: https://github.com/derickr
+    bio:
+      "Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. <br /><br />
+
+      He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He’s a frequent lecturer at conferences, the author of php|architect’s Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP and HHVM drivers for MongoDB."
 
 billie-thompson:
     name: Billie Thompson
