@@ -1,3 +1,11 @@
+loic-faugeron:
+    name: Loic Faugeron
+    url: https://gnugat.github.io
+    twitter: epiloic
+    github: https://github.com/gnugat
+    bio:
+      "Loïc Faugeron is a lead developer at Constant Commerce, where he develops APIs using Symfony3, PHP7 and phpspec. These days he's rambling about TDD, CQRS / ES and MonoRepos on his blog."
+
 amo-chohan:
     name: Amo Chohan
     url: https://medium.com/@amo.chohan

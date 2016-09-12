@@ -16,6 +16,12 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
+- name: Aspire
+  url: http://www.weareaspire.com
+  logo_path: aspire.jpg
+  blurb:
+    "are a leading recruiter in the Digital Media, Marketing and Communications sectors across London, Singapore and Hong Kong."
+
 - name: You
   url: http://www.example.com
   logo_path: your-company.png
