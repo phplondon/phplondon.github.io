@@ -1,3 +1,14 @@
+- date: 2016-10-06 19:00
+  url: http://www.meetup.com/phplondon/events/233637210/
+  location: sainsburys
+  speaker: loic-faugeron
+  talk: "Event Driven Architecture"
+  synopsis:
+    "<br />Have you ever wondered what ReactPHP meant by 'non blocking I/O'? Or why would being 'event-driven' allow nginx to be more efficient than Apache? <br /><br />
+
+    If you find it easier to understand abstract concepts like these by implementing them, then you're in luck because in this talk we'll create a simple HTTP server, then develop an event loop and finally create a simple Promise class. Once we're done, we'll have all the tools at our disposal to make our PHP applications as performant as NodeJs ones!"
+
+
 - date: 2016-09-01 19:00
   url: http://www.meetup.com/phplondon/events/233637210/
   location: sainsburys
