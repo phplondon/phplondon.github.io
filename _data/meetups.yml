@@ -1,3 +1,17 @@
+- date: 2016-11-03 19:00
+  url: http://www.meetup.com/phplondon/events/235149044/
+  location: sainsburys
+  speaker: rob-elkin
+  talk: "Real world deployments - Empowering developers, delivering features"
+  synopsis:
+    "<br />Real world deployments - Enabling engineers to ship code to users quickly and safely is an incredibly empowering and motivating thing, encouraging quick iteration, collaboration, and solving real world problems for users. <br /><br />
+
+    At busuu we've worked hard to get our deployment and automation tooling to a place where any engineer can deploy any branch to any environment quickly and safely, and roll back if there are any issues. <br /><br />
+
+    I\'ll talk through why we focus on this, how it has impacted on our team, and some real world examples of how we\'ve implemented deployments in our team."
+
+
+
 - date: 2016-10-06 19:00
   url: http://www.meetup.com/phplondon/events/234064356/
   location: sainsburys
