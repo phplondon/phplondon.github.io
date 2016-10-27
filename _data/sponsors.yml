@@ -1,9 +1,3 @@
-# - name: Ayima
-#   url: http://www.ayima.com
-#   logo_path: ayima.png
-#   blurb:
-#     "for sponsoring the food and drinks."
-
 - name: JetBrains
   url: http://www.jetbrains.com
   logo_path: jetbrains.png
@@ -15,12 +9,6 @@
   logo_path: sainsburys.png
   blurb:
     "for hosting the meetings at their fantastic facilities."
-
-- name: Aspire
-  url: http://www.weareaspire.com
-  logo_path: aspire.jpg
-  blurb:
-    "are a leading recruiter in the Digital Media, Marketing and Communications sectors across London, Singapore and Hong Kong."
 
 - name: You
   url: http://www.example.com
