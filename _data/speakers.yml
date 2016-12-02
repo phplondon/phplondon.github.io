@@ -1,3 +1,11 @@
+php-london:
+    name: PHP London
+    url: http://phplondon.org
+    twitter: phplondon
+    github: https://github.com/phplondon
+    bio:
+      "PHP London is the UK's largest PHP user group dedicated to promoting knowledge sharing and best practice amongst PHP professionals."
+
 rob-elkin:
     name: Rob Elkin
     url: https://www.busuu.com

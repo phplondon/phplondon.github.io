@@ -1,3 +1,13 @@
+- date: 2016-12-07 18:30
+  url: https://www.meetup.com/phplondon/events/235929795/
+  location: craftbeerco
+  speaker: php-london
+  talk: "December Social"
+  synopsis:
+    "<br />After a really good year in the world of PHP, we'd like to invite you all to our December Social. There will be no formal agenda, no talk, just good beer and good chat. <br /><br />
+
+    We have booked the upstairs room at Craft Beer Co in Clerkenwell from 6:30 onwards. "
+
 - date: 2016-11-03 19:00
   url: http://www.meetup.com/phplondon/events/235149044/
   location: sainsburys
@@ -9,7 +19,6 @@
     At busuu we've worked hard to get our deployment and automation tooling to a place where any engineer can deploy any branch to any environment quickly and safely, and roll back if there are any issues. <br /><br />
 
     I\'ll talk through why we focus on this, how it has impacted on our team, and some real world examples of how we\'ve implemented deployments in our team."
-
 
 
 - date: 2016-10-06 19:00
