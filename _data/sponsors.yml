@@ -10,6 +10,12 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
+- name: Explore Group
+  url: http://www.explore-group.com
+  logo_path: explore-group.png
+  blurb:
+    "for providing our attendees with food and drinks."
+
 - name: You
   url: http://www.example.com
   logo_path: your-company.png
