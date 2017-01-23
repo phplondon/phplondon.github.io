@@ -93,7 +93,9 @@ derick-rethans:
 
 billie-thompson:
     name: Billie Thompson
-    bio: "Bio for Billie"
+    url: http://purplebooth.co.uk
+    twitter: purplebooth
+    bio: "The most popular thing Billie Thompson's ever made has been a README.md template, but mostly she's a contracting software developer helping teams write awesome PHP (or sometimes Java). She loves docker and will pester you to use it if you bring it up."
 
 mark-bradley:
     name: Mark Bradley

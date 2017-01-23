@@ -1,3 +1,13 @@
+- date: 2017-02-02 19:00
+  url: http://www.meetup.com/phplondon/events/236985679/
+  location: sainsburys
+  speaker: billie-thompson
+  talk: "Open API"
+  synopsis:
+    "<br />During this talk I will introduce you to the concepts of publishing an API contract using the Open API standard (formerly called Swagger). I'll cover your options for defining your API contract, the pros and cons of each, and how to verify you're following that standard in actuality. <br /><br />
+
+    This talk's example will be based around Symfony, and the tools involved make heavy use of the Symfony Serializer, however non-Symfony users will find it useful too."
+
 - date: 2017-01-05 19:00
   url: http://www.meetup.com/phplondon/events/236497693/
   location: sainsburys
