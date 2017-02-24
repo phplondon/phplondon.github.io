@@ -1,3 +1,14 @@
+- date: 2017-03-02 19:00
+  url: http://www.meetup.com/phplondon/events/237870919/
+  location: sainsburys
+  speaker: marco-troisi
+  talk: "OOP is not dead"
+  synopsis:
+    "<br />Is Object Oriented Programming still worth the effort? Many seem to think it's not, but are they right? <br /><br />
+
+    In this talk we're going to look at whether thinking in terms of Objects is still relevant in modern software development."
+
+
 - date: 2017-02-02 19:00
   url: http://www.meetup.com/phplondon/events/236985679/
   location: sainsburys
