@@ -1,3 +1,14 @@
+- date: 2017-04-06 19:00
+  url: http://www.meetup.com/phplondon/events/237870919/
+  location: sainsburys
+  speaker: daniel-james
+  talk: "Building an e-commerce platform for 2 million shoppers with Symfony"
+  synopsis:
+    "<br />A luxury e-commerce platform for 2 million users from scratch, how hard can it be? A lot more complex than it appears! It was a task made possible by Symfony, a microservices architecture, a devops team and a React frontend. <br /><br />
+
+    This talk will run through how Symfony was used to build each part of an e-commerce platform right through from warehouse floor to iPhone screen."
+
+
 - date: 2017-03-02 19:00
   url: http://www.meetup.com/phplondon/events/237870919/
   location: sainsburys
