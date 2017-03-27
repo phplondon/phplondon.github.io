@@ -10,12 +10,6 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
-- name: Snap.hr
-  url: http://www.snap.hr
-  logo_path: snap-hr.png
-  blurb:
-    "for providing our attendees with food and drinks."
-
 - name: You
   url: http://www.example.com
   logo_path: your-company.png
