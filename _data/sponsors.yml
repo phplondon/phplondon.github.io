@@ -10,6 +10,12 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
+- name: Deeson
+  url: https://www.deeson.co.uk
+  logo_path: deeson.png
+  blurb:
+    "for providing the refreshments."
+
 - name: You
   url: http://www.example.com
   logo_path: your-company.png
