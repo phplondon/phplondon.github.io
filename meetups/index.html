@@ -22,12 +22,10 @@ weight: 2
 	                </div>
 	                <div class="meetup-hightlight__details">
 	                    <h3 class="meetup-highlight__talk">{{meetup.talk}}</h3>
-	                    <span class="meetup-highlight__speaker"><strong>Speaker:</strong> {{speaker.name}}</span>
+	                    <h4 class="meetup-highlight__speaker">Speaker: {{speaker.name}}</h4>
 	                    <p>{{meetup.synopsis}}</p>
-	                    <p><strong>About the speaker:</strong><br>
-	                    {{speaker.bio}}<br>
-	                    <!-- <a href="/speakers#{{meetup.speaker}}">Full bio</a> -->
-	                    </p>
+	                    <h4>About the speaker:</h4>
+	                    {{speaker.bio}}
 		                <div class="location">
 		                    <i class="icon icon--small icon--red icon--pin">
 		                        {% include icons/icon-pin.svg %}
