@@ -10,9 +10,9 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
-- name: Deeson
-  url: https://www.deeson.co.uk
-  logo_path: deeson.png
+- name: CloudFlare
+  url: https://www.cloudflare.com
+  logo_path: cloudflare.png
   blurb:
     "for providing the refreshments."
 

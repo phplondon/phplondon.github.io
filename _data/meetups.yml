@@ -1,3 +1,14 @@
+- date: 2017-06-01 19:00
+  url: https://www.meetup.com/phplondon/events/240234021/
+  location: sainsburys
+  speaker: zsolt-szende
+  talk: "Functional Programming in PHP"
+  synopsis:
+    "<br />It's becoming increasingly difficult to ignore the term 'Functional Programming' while reading online discussions about programming languages or programming in general. People discussing FP routinely use terms that can be strange and unfamiliar to developers coming from the imperative/OO world.   <br /><br />
+    What exactly is Functional Programming? Where does it come from? How does it differ from the programming I know?  <br /><br />
+    This talk will try to answer these questions by weaving seemingly unrelated concepts into a (hopefully) coherent story of FP, using PHP as the vehicle of expressing these ideas. The side effect (pun intended) of having a basic grasp of FP will make you a better developer, which will make you a better PHP developer. <br /><br />"
+
+
 - date: 2017-05-04 19:00
   url: https://www.meetup.com/phplondon/events/239534797/
   location: sainsburys
