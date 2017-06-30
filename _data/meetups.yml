@@ -1,3 +1,14 @@
+- date: 2017-07-06 19:00
+  url: https://www.meetup.com/phplondon/events/241112014/
+  location: sainsburys
+  speaker: michael-burgess
+  talk: "The Philosophy of Programming"
+  synopsis:
+    "<br />What is programming? What are programs? What are programmers doing when they write programs? What is a successful program?  <br /><br />
+    n this session we will explore programming as a modelling activity comparing it with art and science: exploring the relationship between programming and truth, knowledge and representation. <br /><br />
+    I'll speak in terms of PHP examples possibly also in comparison to other languages. <br /><br />"
+
+
 - date: 2017-06-01 19:00
   url: https://www.meetup.com/phplondon/events/240234021/
   location: sainsburys

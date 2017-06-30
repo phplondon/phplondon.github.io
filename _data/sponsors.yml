@@ -10,9 +10,9 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
-- name: CloudFlare
-  url: https://www.cloudflare.com
-  logo_path: cloudflare.png
+- name: Updatable
+  url: https://www.updatable.com
+  logo_path: updatable.png
   blurb:
     "for providing the refreshments."
 
