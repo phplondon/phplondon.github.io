@@ -1,3 +1,13 @@
+- date: 2017-08-03 19:00
+  url: https://www.meetup.com/phplondon/events/242158797/
+  location: sainsburys
+  speaker: marcello-duarte
+  talk: "An Introduction to Lean and Functional Domain Modelling"
+  synopsis:
+    "<br />Rich domain models, inspired by imperative objective-oriented approaches, dominate our industry. But lean domain models are a compelling alternative. <br /><br />
+    By separating behaviour and state, lean models offer an effective way to represent units of behaviour. This session will explore how to represent a lean domain model using a functional programming paradigm. <br /><br />
+    We'll explore how types can be used as a natural way to represent business constraints alongside smart constructors and functional validation. How behaviour can be better composed, and how to keep domain behaviour isolated from application state. <br /><br />"
+
 - date: 2017-07-06 19:00
   url: https://www.meetup.com/phplondon/events/241112014/
   location: sainsburys

@@ -10,9 +10,9 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
-- name: Updatable
-  url: https://www.updatable.com
-  logo_path: updatable.png
+- name: Inviqa
+  url: https://www.inviqa.com
+  logo_path: inviqa.png
   blurb:
     "for providing the refreshments."
 
