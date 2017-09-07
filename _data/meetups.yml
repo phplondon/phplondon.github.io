@@ -1,3 +1,12 @@
+- date: 2017-09-07 19:00
+  url: https://www.meetup.com/phplondon/events/242919550/
+  location: sainsburys
+  speaker: matt-brunt
+  talk: "Content Security Policies: Let's break stuff "
+  synopsis:
+    "<br />Content Security Policies are another tool we should have in our security toolbelt to help protect users of our sites. In this session you'll learn what they are, why they're needed, how they work and the limitations on what they can and cannot do to protect users. <br /><br />
+    You'll see a demo of attacks a CSP will block, you'll see a site broken by a CSP, show what the different CSP directives and options will do and be introduced to some of the tools available to help with implementing a CSP on your sites!  <br /><br />"
+
 - date: 2017-08-03 19:00
   url: https://www.meetup.com/phplondon/events/242158797/
   location: sainsburys
