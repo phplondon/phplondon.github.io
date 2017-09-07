@@ -5,14 +5,14 @@
     "for providing our attendees with prizes."
 
 - name: Sainsburys
-  url: http://www.sainsburys.com
+  url: https://www.phpconference.co.uk
   logo_path: sainsburys.png
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
-- name: Inviqa
+- name: PHPUK Conference
   url: https://www.inviqa.com
-  logo_path: inviqa.png
+  logo_path: phpukconference.png
   blurb:
     "for providing the refreshments."
 
