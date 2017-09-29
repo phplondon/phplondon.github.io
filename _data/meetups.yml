@@ -1,3 +1,14 @@
+- date: 2017-10-05 19:00
+  url: https://www.meetup.com/phplondon/events/243675139/
+  location: sainsburys
+  speaker: jelena-kosakovskaja
+  talk: "Back to school: Sorting algorithms"
+  synopsis:
+    "<br />Sorting is the fundamental and the most common used operation in our everyday life.  <br /><br />
+    Sorting can pave the way for faster searching or ordering of items in a pile. <br /><br />
+    In this talk we will explore a few of the most popular sorting algorithms, look into how the sorting is done, compare behaviours and look into PHP sort functions. <br /><br />"
+
+
 - date: 2017-09-07 19:00
   url: https://www.meetup.com/phplondon/events/242919550/
   location: sainsburys
