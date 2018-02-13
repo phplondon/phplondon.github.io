@@ -1,3 +1,12 @@
+- date: 2018-02-01 19:00
+  url: https://www.meetup.com/phplondon/events/246862381/
+  location: sainsburys
+  speaker: diego-mariani
+  talk: "Online schema migration: a real world case study"
+  synopsis:
+    "<br />In this talk, we will see a walkthrough of the online schema migration that busuu carried out, accomplished with no downtime, including a complete user schema migration, bringing our application data model into a cleaner and more maintainable state. The last step was migrating from our old legacy Drupal system to Symfony3, again, with no downtime! <br /><br />"
+
+
 - date: 2018-01-04 19:00
   url: https://www.meetup.com/phplondon/events/246398255/
   location: sainsburys
