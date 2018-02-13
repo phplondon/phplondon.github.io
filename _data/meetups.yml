@@ -1,3 +1,12 @@
+- date: 2017-11-02 19:00
+  url: https://www.meetup.com/phplondon/events/244570413/
+  location: sainsburys
+  speaker: christopher-hoult
+  talk: "Graphs are Everywhere"
+  synopsis:
+    "<br />No - not charts! Graphs are a data structure that are more than just the nodes and edges they contain: from mapping networks to representing arithmetic, from writing chat-bots to inferring relationships, applying graphs to a problem can quite often provide an elegant solution.  <br /><br />
+    In this light-hearted and accessible talk, Chris will cover the basics of graphs as well as go over a few simple but fun examples of this versatile concept. <br /><br />"
+
 - date: 2017-10-05 19:00
   url: https://www.meetup.com/phplondon/events/243675139/
   location: sainsburys
