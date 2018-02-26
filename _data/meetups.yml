@@ -1,3 +1,12 @@
+- date: 2018-03-01 19:00
+  url: https://www.meetup.com/phplondon/events/248021529/
+  location: sainsburys
+  speaker: rob-waller
+  talk: "Five Tips for Aspiring Tech Team Managers"
+  synopsis:
+    "<br />Management isn't a topic that developers like to discuss a lot, it simply isn't as exciting as single responsibility or interface segregation. It is though a very important topic as management can make or break a tech project. It is aslo an interesting and worthwhile career path for people to follow; learning to mentor and guide younger developers along with learning about the business, finance and legal side of tech projects. <br /><br />
+    Transitioning from developer to manager can be difficult though, in my talk I will offer advice for aspiring managers and developers generally on why they should become managers, what to expect and how to become better at it."
+
 - date: 2018-02-01 19:00
   url: https://www.meetup.com/phplondon/events/246862381/
   location: sainsburys
