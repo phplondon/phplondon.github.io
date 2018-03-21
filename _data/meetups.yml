@@ -1,3 +1,13 @@
+- date: 2018-04-05 19:00
+  url: https://www.meetup.com/phplondon/events/248953529/
+  location: sainsburys
+  speaker: michael-cullum
+  talk: "Machine learning and trend analysis in PHP"
+  synopsis:
+    "<br />The world we live in is one where data is one of the most valuable assets. <br /><br />
+    There are many different pieces of data we can analyse on all kind of data from analytics of user behaviour of your platform, user generated content, monitoring of exception rates, or when your core business model is to provide some kind of analytics platform. <br /><br />
+    This talk will talk about how you can, in your PHP applications, perform utilise machine learning techniques to build models, analyse data to get useful information and spot anomalies."
+
 - date: 2018-03-06 19:00
   url: https://www.meetup.com/phplondon/events/248372704/
   location: sainsburys
