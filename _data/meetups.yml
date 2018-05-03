@@ -1,3 +1,12 @@
+- date: 2018-05-03 19:00
+  url: https://www.meetup.com/phplondon/events/250172689/
+  location: sainsburys
+  speaker: michael-heap
+  talk: "Dr Sheldon Cooper Presents: Fun with Flags"
+  synopsis:
+    "<br />No no, not country flags, feature flags! Feature flags are a powerful technique that allows teams to modify a system’s behaviour without changing code. They can be used several reasons – canary releases and A/B testing to name a few. <br /><br />
+    This talk will show you how you’re already using feature flags in your application without realising it. Next, we’ll take a look at some of the best tooling out there to help you take feature flags to the next level. Finally, we’ll cover strategies for removing feature flags before they become technical debt that you have to manage."
+
 - date: 2018-04-05 19:00
   url: https://www.meetup.com/phplondon/events/248953529/
   location: sainsburys

@@ -1,3 +1,9 @@
+michael-heap:
+  name: Michael Heap
+  url: https://twitter.com/mheap
+  bio:
+    "Michael is a polyglot software engineer, committed to reducing complexity in systems and making them more predictable. Working with a variety of languages and tools, he shares his technical expertise to audiences all around the world at user groups and conferences. <br><br>"
+
 michael-cullum:
   name: Michael Cullum
   url: https://twitter.com/michaelcullumuk
@@ -6,6 +12,7 @@ michael-cullum:
     He currently works at SamKnows as a senior software engineer & architect handling and processing huge amounts of internet measurement data.<br><br>
     He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team to lead on security.<br><br>
     He is actively involved in the PHP FIG previously as editor of PSR-12 and running the administration of the FIG as the PHP FIG Secretary for 2 years; he now sits on the Core Committee, the steering group of the FIG, and is the editor of PSR-9 and PSR-10: two new security PSRs.<br><br>"
+
 rob-waller:
   name: Rob Waller
   url: https://twitter.com/robdwaller
