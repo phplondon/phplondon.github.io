@@ -10,6 +10,12 @@
   blurb:
     "for hosting the meetings at their fantastic facilities."
 
+- name: CloudFlare
+  url: https://www.cloudflare.com
+  logo_path: cloudflare.png
+  blurb:
+    "for providing the food and drinks."
+
 - name: LendInvest
   url: https://www.lendinvest.com
   logo_path: lendinvest.png
