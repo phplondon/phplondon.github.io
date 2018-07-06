@@ -188,3 +188,13 @@ andrew-carter:
     bio: "Andrew is a young developer of open source and commercial software. He graduated from the University of Warwick in 2014 with a first class masters degree in Physics. At Warwick he focused his studies on scientific computer simulations and developing software to run on high performance clusters.
 
     Since graduating, Andrew has worked commercially on price comparison applications in the insurance and car hire industry. His spare time is invested in the PHPFastCGI project, a performance tool for PHP."
+
+ciaran-mcnulty:
+    name: Ciaran McNulty
+    bio: "Ciaran helps teams at all levels of ability improve via training and coaching.<br />
+    He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies.<br />
+    He is lead maintainer of PhpSpec, a unit level BDD tool."
+
+mike-oram:
+    name: Mike Oram
+    bio: "Mike Oram is the lead trainer at Mayden Academy in Bath. He is a full stack developer with nearly ten years’ experience working in interface design, front-end and server-side technologies. Mike most enjoys writing CSS and JavaScript and has a particular passion for mentoring and supporting junior developers."
