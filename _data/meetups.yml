@@ -1,3 +1,27 @@
+- date: 2018-07-05 19:00
+  url: https://www.meetup.com/phplondon/events/252115229/
+  location: sainsburys
+  speaker: mike-oram
+  talk: "Progressive Web Apps and offline development"
+  synopsis:
+    "<br />There is a lot of talk about Progressive Web Apps at the moment. It is a hot topic in the JavaScript community.<br /> <br />
+
+           In this talk, we will briefly explore what a PWA is and how to build one. We will look at the benefits of PWA's and more importantly their limitations.<br /> <br />
+
+           We then look a bit deeper at the technologies behind PWA's such as Service Workers, in particular we will look at the mechanics behind Service Workers, and how they will affect your back-end builds.<br /> <br />
+
+           Finally, we will look at offline development, the offline first life-cycle and the tools and technologies needed to start building offline applications. Comparing offline storage mechanisms, and their limitations.<br /> <br />
+
+           This talk is great for anyone building web-based applications, in any language, or anyone wanting to learn more about PWA's and offline development."
+
+- date: 2018-06-07 19:00
+  url: https://www.meetup.com/phplondon/events/251200476/
+  location: sainsburys
+  speaker: ciaran-mcnulty
+  talk: "BDD in Practice"
+  synopsis:
+    "<br />We'll look at some common Behaviour Driven Development practices, and show how you can use them to improve communication between business and development, align your understandings of requirements, and eventually drive your development with automated tests using tools like Behat."
+
 - date: 2018-05-03 19:00
   url: https://www.meetup.com/phplondon/events/250172689/
   location: sainsburys
