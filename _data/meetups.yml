@@ -1,3 +1,24 @@
+- date: 2018-09-06 19:00
+  url: https://www.meetup.com/phplondon/events/254263953/
+  location: sainsburys
+  speaker: dave-liddament
+  talk: "Squash Bugs with Static Analysis"
+  synopsis:
+    "<br />All developers know that bugs are bad and finding them can be difficult. The good news is tools to help us find and prevent bugs are becoming more powerful...<br /> <br />
+
+           Modern static analysis tools (e.g. IDEs like PHPStorm and tools like Psalm, Phan and PHPStan) are far more advanced then their predecessors. They can find a whole range of bugs whilst keeping the false positive rate low.<br /> <br />
+
+           This talk introduces more advanced static analysis. It will show the kinds of bugs that the more advanced static analysis tools can find. We’ll then look how they can be added to your current development work flow. We’ll finally look at how we can write our code in such a way to get the most out of static analysis."
+
+
+- date: 2018-08-02 19:00
+  url: https://www.meetup.com/phplondon/events/253163214/
+  location: sainsburys
+  speaker: lightning-talks
+  talk: "Lightning Talks"
+  synopsis:
+    "<br />This month we have decided to change things up from the normal format and bring back the Lightning Talks."
+
 - date: 2018-07-05 19:00
   url: https://www.meetup.com/phplondon/events/252115229/
   location: sainsburys
