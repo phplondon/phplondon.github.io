@@ -1,3 +1,17 @@
+dave-liddament:
+  name: Dave Liddament
+  url: https://twitter.com/daveliddament
+  bio:
+    "Dave is a director and developer at Lamp Bristol, a software consultancy. He’s been writing software commercially for over fifteen years in many languages including C, Python, Java and PHP. <br><br>
+     Dave is keen to pass on his knowledge. He is an organiser and regular speaker at PHP-SW. He also runs the monthly workshop Bristol PHP Training that covers topics including testing, CI and git. <br><br>
+     When not busy coding, Dave enjoys scuba diving and running."
+
+lightning-talks:
+  name: Lightning Talks
+  url: https://twitter.com/phplondon
+  bio:
+    "Lightning Talks <br><br>"
+
 michael-heap:
   name: Michael Heap
   url: https://twitter.com/mheap
