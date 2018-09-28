@@ -1,3 +1,18 @@
+- date: 2018-10-04 19:00
+  url: https://www.meetup.com/phplondon/events/254987997/
+  location: sainsburys
+  speaker: gregorz-drozd
+  talk: "Move your apps into containers"
+  synopsis:
+    "<br />This talk will be a short introduction to docker, containers and other buzzwords.<br /> <br />
+
+           The talk will show you how to put even most stubborn applications into containers, to move them around between developer environment, staging/testing all the way to production.<br /> <br />
+
+           It will also cover how to pass data between containers, how to customize them (not only for PHP but also other common ones), viewing logs and diagnosing issues."
+
+
+
+
 - date: 2018-09-06 19:00
   url: https://www.meetup.com/phplondon/events/254263953/
   location: sainsburys
