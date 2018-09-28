@@ -22,6 +22,12 @@
   blurb:
     "for providing the food and drinks."
 
+- name: Explore Group
+  url: https://www.explore-group.com
+  logo_path: explore-group.png
+  blurb:
+    "for providing the food and drinks."
+
 - name: Paddle
   url: https://www.paddle.com
   logo_path: paddle.png
