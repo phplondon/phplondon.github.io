@@ -1,3 +1,20 @@
+- date: 2019-01-03 18:30
+  url: https://www.meetup.com/phplondon/events/257643050/
+  location: sainsburys
+  speaker: frederick-vanbrabant
+  talk: "Let's get you geared up to tackle legacy code"
+  synopsis:
+    "<br />The first step of working with legacy code is realizing the incredible amount of value that has dropped in your lap.<br /> <br />
+
+           In this talk, we are going to pinpoint that value. And move that value in a better to maintain and understand codebase.<br /> <br />
+
+           First, we will cover the general mentality that will make it easier to prepare a plan of attack.<br /> <br />
+
+           Next up are more technical tips that will make it easier to talk about the code.<br /> <br />
+
+           We will end off the session by actually porting a small piece of code."
+
+
 - date: 2018-10-04 19:00
   url: https://www.meetup.com/phplondon/events/254987997/
   location: sainsburys
@@ -9,8 +26,6 @@
            The talk will show you how to put even most stubborn applications into containers, to move them around between developer environment, staging/testing all the way to production.<br /> <br />
 
            It will also cover how to pass data between containers, how to customize them (not only for PHP but also other common ones), viewing logs and diagnosing issues."
-
-
 
 
 - date: 2018-09-06 19:00
