@@ -1,3 +1,77 @@
+- date: 2019-07-04 18:30
+  url: https://www.meetup.com/phplondon/events/262667291/
+  location: sainsburys
+  speaker: james-seconde
+  talk: "Bro, you even code? The politics of tool shaming"
+  synopsis:
+    "<br />We've all heard it: 'What?! You're using X framework/language/tool? You must suck at programming!'<br /> <br />
+           We work in an opinionated industry, where it's essential to give and take advice; some good, some bad. In this talk James will delve into what's harmful about shaming, and what's constructive.<br /> <br />
+           In James' own words:<br /> <br />
+           'I felt compelled to write a talk on the subject of tool shaming about a year into becoming a web developer. I'd entered from an old world of statistics where time stood still and everyone was happy, to a flame pit where self-styled 'brogrammers' would flaunt their weight around, offering 'rock-star' opinions on why you suck and your language sucks.<br /> <br />
+           At the end of the day, what we do is hard. There is so much criticism to be had, usually relevant. But when it's not relevant, it's damaging. And it has the capacity to make people leave technology. What I want to do in this talk is show the obvious bad points of doing this through real world examples, but also to direct us at where shaming is appropriate. Collaboration and community is something I'm passionate about as are so many, and individual prejudices aren't cool, and I am to address that.<br /> <br />
+           PS. I don't care if you use emacs or vim - can you ship it?'"
+
+- date: 2019-06-06 18:30
+  url: https://www.meetup.com/phplondon/events/261922958/
+  location: sainsburys
+  speaker: bruce-dou
+  talk: "Preemptive multitasking using coroutines in PHP Swoole"
+  synopsis:
+    "<br />PHP Swoole enables PHP developers to write high-performance, scalable, concurrent TCP, UDP, Unix socket, HTTP, WebSocket services in PHP programming language.<br /> <br />
+           Compared with other async programming frameworks or software such as Nginx, Tornado, Node.js, Swoole has the built-in async, coroutines, multiple threads I/O modules.<br /> <br />
+           Preemptive scheduling is the key to building a high performance, low latency, near the real-time system.<br /> <br />
+           Compared with other programming languages or frameworks, PHP Swoole is one of the very few supports preemptive multitasking using coroutines.<br /> <br />
+           This talk we like to introduce the coroutines in PHP Swoole and the implementation of a multitasking coroutines scheduler in PHP Swoole."
+
+- date: 2019-05-09 18:30
+  url: https://www.meetup.com/phplondon/events/260850469/
+  location: sainsburys
+  speaker: federico-razzoli
+  talk: "How MySQL can boost (or kill) your PHP application"
+  synopsis:
+    "<br />The database is typically the most critical part of a system. It is responsible for storing data, guaranteeing consistency, and retrieving desired information.<br /> <br />
+           And it is very tempting to just hope that this will magically happen, without the need of thinking about what the DBMS needs to do.<br /> <br />
+           Unfortunately, in practice, when an application is slow the culprit is the database.<br /> <br />
+           This talk is about how to make your MySQL queries fast, how to design proper indexes, hot to trade-off reliability for performance (or the other way around), and how to take advantage of some useful MySQL features."
+
+- date: 2019-04-04 18:30
+  url: https://www.meetup.com/phplondon/events/260048627/
+  location: sainsburys
+  speaker: neal-brooks
+  talk: "Running your PHP site on AWS Lambda with Bref"
+  synopsis:
+    "<br />Ever find yourself deploying your PHP app to your EC2 boxes and wondering if you're using your resources wisely? You're almost certainly paying for CPU time you're not using, and scaling PHP applications on AWS can be tricky.<br /> <br />
+           Wouldn't it be great to pay only for the resources you actually use, and if your site could scale instantly without needing to configure auto-scaling-groups, alarms, and rules? AWS Lambda gives us these features but only supports a few languages natively.<br /> <br />
+           Until now making PHP run on AWS Lambda has required a lot of hacks and workarounds. However, evolving tools such as https://bref.sh have fixed a lot of the pain for you.<br /> <br />
+           In this session we'll walk through the steps required to set up a real PHP website running on Lambda, served over HTTPS, and all without launching a single EC2 instance or ELB.<br /> <br />
+           Finally we'll look at some of the other possibilities and considerations that are now open to us as PHP engineers in a serverless world."
+
+
+- date: 2019-03-07 18:30
+  url: https://www.meetup.com/phplondon/events/259357510/
+  location: sainsburys
+  speaker: mark-bradley
+  talk: "Test Driven Development: Dipping your toe into tests first"
+  synopsis:
+    "<br />Writing tests before you write production code can be an intimidating concept, but there is no need to be scared.<br /> <br />
+           During this talk we will look at the concepts of Test Driven Development and what it takes to write tests first.<br /> <br />
+           * We will look at:<br /> <br />
+           * What is Test Driven Development (TDD)<br /> <br />
+           * Why should you use TDD<br /> <br />
+           * How to use TDD<br /> <br />
+           The talk will finish with a Mob Programming session where attendees can join in on ‘TDD-ing’ a simple piece of code."
+
+- date: 2019-02-07 18:30
+  url: https://www.meetup.com/phplondon/events/258491991/
+  location: sainsburys
+  speaker: mike-oram
+  talk: "The Web API"
+  synopsis:
+    "<br />The web API has been a vital part of the JavaScript ecosystem for quite some time now, giving us AJAX, window timers and more.<br /> <br />
+           With the rise of progressive web apps, the web API's functionality is increasing like never before.<br /> <br />
+           To compete with native applications, the web API has some fantastic and powerful new features, with some awesome, and scary results.<br /> <br />
+           During this talk we will explore some of the newer web API features, how to use them and more importantly, the risks that they pose."
+
 - date: 2019-01-03 18:30
   url: https://www.meetup.com/phplondon/events/257643050/
   location: sainsburys
@@ -14,6 +88,16 @@
 
            We will end off the session by actually porting a small piece of code."
 
+
+- date: 2018-11-01 19:00
+  url: https://www.meetup.com/phplondon/events/255745311/
+  location: sainsburys
+  speaker: adam-cable
+  talk: "Scraping with PHP"
+  synopsis:
+    "<br />This talk will be a short introduction to scraping, and how to do it successfully in PHP, when and why scraping could be useful to you.<br /> <br />
+
+           It will cover in-built PHP functions, as well as various packages, tools and techniques and how to scrape even the most stubborn websites."
 
 - date: 2018-10-04 19:00
   url: https://www.meetup.com/phplondon/events/254987997/
@@ -367,7 +451,7 @@
   speaker: mark-bradley
   talk: "Imposter Syndrome: Am I Faking It?"
   synopsis:
-    "Do you feel like you're faking it? like you don't feel good enough to do your job? Feeling like you've blagged your way through your career? Then like me and hundreds of others, you might be suffering from imposter syndrome. During my talk I am going to discuss what imposter syndrome is and how it feels. Then I'm going to talk you through why people suffer from it and how people overcome it. 
+    "Do you feel like you're faking it? like you don't feel good enough to do your job? Feeling like you've blagged your way through your career? Then like me and hundreds of others, you might be suffering from imposter syndrome. During my talk I am going to discuss what imposter syndrome is and how it feels. Then I'm going to talk you through why people suffer from it and how people overcome it.
 
     This talk is based on both my personal experiences and those of others. By the end of it I hope you can identify if you are suffering from imposter syndrome and also create a team environment that helps to combat the feeling within your team mates."
 

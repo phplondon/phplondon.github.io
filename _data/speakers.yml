@@ -1,3 +1,24 @@
+james-seconde:
+  name: James Seconde
+bruce-dou:
+  name: Bruce Dou
+  url: https://twitter.com/
+  bio:
+    "James runs both Birmingham's PHP usergroup, BrumPHP, and Fusion Birmingham, a quarterly conference. After 2 years of being a Web Developer writing in Silverstripe and Symfony, he is now heading up Developer Relations at EastsideCo in Digbeth, Birmingham. When not writing microservices in Laravel and Vue.js for Shopify, you'll find him promoting tech in the Second City or listening to video game soundtracks on vinyl."
+
+federico-razzoli:
+  name: Federico Razzoli
+  url: https://twitter.com/
+  bio:
+    "Federico is an open source database consultant, specialised in the MySQL ecosystem. After working in some fast-growing companies as a DBA and in some consultancy companies, he decided to be a freelance. Now he helps companies with training, performance tuning, database monitoring, backup automation, and so on. He is based in London."
+
+neal-brooks:
+  name: Neal Brooks
+  url: https://twitter.com/
+  bio:
+    "Neal writes code for https://mybuilder.com. As a result of an inability to say 'no', he is constantly over-subscribed with work, projects, courses, and hobbies."
+
+
 frederick-vanbrabant:
   name: Frederick Vanbrabant
   url: https://twitter.com/
@@ -6,6 +27,15 @@ frederick-vanbrabant:
      He is the founder of Brody & Hooper, and currently employed as a software architect at Take The Lead. <br><br>
      When he's not writing or talking about code you can find him in a ring trying to imitate Muhammad Ali."
 
+adam-cable:
+  name: Adam Cable
+  url: https://twitter.com/
+  bio:
+    "Adam has been a developer for the past 20 years, spending most of them trying to extract meaningful data from websites. <br><br>
+     Having worked for large corporations for nearly 15 years he has run his own IT company, Adsar, for the past 5. <br><br>
+     He specialises in price comparison sites (hence the fascination with scraping) helping people to find the best deals for various products. <br><br>
+     At home he conducts a Brass Band and spends as much time as possible playing with Brio with his 3 year old son."
+
 gregorz-drozd:
   name: Gregorz Drozd
   url: https://twitter.com/
@@ -13,7 +43,6 @@ gregorz-drozd:
     "Grzegorz (you can call him Greg) – Is a developer with many years of experience. <br><br>
      He has worked for many companies ranging from big international mega corporations and small startups. Starting out as a developer and then progressing myself into a technical leader, he is currently a software architect. <br><br>
      He specialises in high performance, secure web applications and is currently experimenting with DevOps and IoT hardware design."
-
 
 dave-liddament:
   name: Dave Liddament
@@ -212,7 +241,9 @@ billie-thompson:
 
 mark-bradley:
     name: Mark Bradley
-    bio: "Bio for Mark"
+    bio: "Mark is a principal software engineer at @SainsburysEng splitting his time between working on the SmartShop app and the Level 4 Software Developer Apprenticeship program. He has passion for testing.
+
+    In his spare time, Mark enjoys quiet evenings in the pub playing board games and spending time with his wife and three children"
 
 andrew-carter:
     name: Andrew Carter
@@ -228,4 +259,6 @@ ciaran-mcnulty:
 
 mike-oram:
     name: Mike Oram
-    bio: "Mike Oram is the lead trainer at Mayden Academy in Bath. He is a full stack developer with nearly ten years’ experience working in interface design, front-end and server-side technologies. Mike most enjoys writing CSS and JavaScript and has a particular passion for mentoring and supporting junior developers."
+    bio: "Mike Oram is the lead trainer at Mayden Academy in Bath. <br /><br />
+    He is a full stack developer with nearly ten years’ experience working in interface design, front-end and server-side technologies. <br /><br />
+    Mike most enjoys writing CSS and JavaScript and has a particular passion for mentoring and supporting junior developers."
