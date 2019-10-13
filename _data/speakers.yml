@@ -1,10 +1,30 @@
+sam-burns:
+  name: Sam Burns
+  bio:
+    "Sam is a PHP developer and software architect with a love of test automation."
+
+fabien-potencier:
+  name: Fabien Potencier
+  bio:
+    "Fabien Potencier discovered the Web in 1994, at a time when connecting to the Internet was still associated with the harmful strident sounds of a modem. Being a developer by passion, he constantly looked for better ways to build websites. Fabien founded the Symfony project in 2004 to fulfill this goal.<br />
+    Fabien is a serial-entrepreneur, and among other companies, he founded Sensio in 1998 - which became SensioLabs in 2012 -, a software company providing products, services, and technical support for the Open-Source Symfony framework. In 2018, he founded Symfony SAS, the company behind Symfony, the PHP Open-Source framework to focus on creating a new generation of SaaS solutions, designed to help PHP developers improve their code and their Symfony experience: SymfonyCloud, SymfonyInsight and the Symfony certification. On top of that, the company aims to lead the Open-Source project, its community and to organize the Symfony conferences. <br />
+    Fabien is also the creator of several other Open-Source projects, a writer, a blogger, a speaker at international conferences, and the happy father of two wonderful kids."
+
+mike-lehan:
+  name: Mike Lehan
+  bio:
+    "Mike has been working in web application development using PHP for 11 years, including 4 years managing a development team for a property tech startup and before that 4 years building a real time application for managing operations at skydiving centres, as well as some time freelancing. Through working on business critical systems with real time elements Mike has learned the value of comprehensive logging & monitoring, redundant checks on applications & infrastructure, and of course well written testable code!"
+
 james-seconde:
   name: James Seconde
+  bio:
+    "James runs both Birmingham's PHP usergroup, BrumPHP, and Fusion Birmingham, a quarterly conference. After 2 years of being a Web Developer writing in Silverstripe and Symfony, he is now heading up Developer Relations at EastsideCo in Digbeth, Birmingham. When not writing microservices in Laravel and Vue.js for Shopify, you'll find him promoting tech in the Second City or listening to video game soundtracks on vinyl."
+
 bruce-dou:
   name: Bruce Dou
   url: https://twitter.com/
   bio:
-    "James runs both Birmingham's PHP usergroup, BrumPHP, and Fusion Birmingham, a quarterly conference. After 2 years of being a Web Developer writing in Silverstripe and Symfony, he is now heading up Developer Relations at EastsideCo in Digbeth, Birmingham. When not writing microservices in Laravel and Vue.js for Shopify, you'll find him promoting tech in the Second City or listening to video game soundtracks on vinyl."
+    "Bruce Dou is one of the maintainers of open source PHP Swoole, specialised in application performance optimization, system cost reduction, cloud migration, web infrastructure and large-scale system architecture."
 
 federico-razzoli:
   name: Federico Razzoli

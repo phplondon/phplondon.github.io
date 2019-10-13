@@ -1,3 +1,34 @@
+- date: 2019-10-10 18:30
+  url: https://www.meetup.com/phplondon/events/265310914/
+  location: sainsburys
+  speaker: sam-burns
+  talk: "Tests Make Good Architects"
+  synopsis:
+    "<br />This talk takes a look at the positive impacts that automated tests can have on architecture. <br /> <br />
+           Unit testing in PHPUnit or PhpSpec, as well as behavioural testing using tools like Behat, have a noticeable effect on software architecture.<br /> <br />
+           Tested (or testable) code is often easier to work with, cleaner, and has architectural advantages.<br /> <br />
+           We will take a look at some of the impacts that a good test suite can have on your application’s architecture, and how to let your tests be your architect.'"
+- date: 2019-09-05 18:30
+  url: https://www.meetup.com/phplondon/events/264125717/
+  location: sainsburys
+  speaker: fabien-potencier
+  talk: "Developing Symfony applications in 2019"
+  synopsis:
+    "Symfony has evolved a lot during the last few years. Developing applications from Symfony 3 to Symfony 4 provides a drastically new developer experience. <br /> <br />
+    We have added new features, but the most important change is not related to the code... Symfony has a revamped developer experience. <br /> <br />
+    Starting a new project with Symfony has been dramatically improved and growing a project is more natural than before. <br /> <br />
+    Recent versions of Symfony allow you to stay focus on your own business logic without getting in your way with the framework plumbing. The result is less boilerplate code, more productivity, and a decoupled codebase."
+
+- date: 2019-08-01 18:30
+  url: https://www.meetup.com/phplondon/events/263451915/
+  location: sainsburys
+  speaker: mike-lehan
+  talk: "Learn By Doing (It Wrong)"
+  synopsis:
+    "<br />As developers we should always be keen to learn more about the work we do, and how we can do it better.<br />
+     One of the best ways to learn is to make mistakes, but this can also be one of the hardest - mistakes can lead to problems for your employers or customers, stress for you and strained relationships with your colleagues.<br />
+      So how can we make this learning process better? By sharing it of course! In this talk Mike shares some key (and big) mistakes made over his career so far, drawing out the important learning points, and showing how you can harness mistakes to level up your skills."
+
 - date: 2019-07-04 18:30
   url: https://www.meetup.com/phplondon/events/262667291/
   location: sainsburys
@@ -341,7 +372,7 @@
 
     At busuu we've worked hard to get our deployment and automation tooling to a place where any engineer can deploy any branch to any environment quickly and safely, and roll back if there are any issues. <br /><br />
 
-    I\'ll talk through why we focus on this, how it has impacted on our team, and some real world examples of how we\'ve implemented deployments in our team."
+    I'll talk through why we focus on this, how it has impacted on our team, and some real world examples of how we've implemented deployments in our team."
 
 
 - date: 2016-10-06 19:00
@@ -474,7 +505,7 @@
     How? I hear you ask!
 
     By using FastCGI we can keep our application alive between requests and vastly improve their performance. The best news is that if you're using a Request-Response framework (such as Symfony) you can easily do this by integrating a simple bundle."
-    
+
 - date: 2015-10-01 19:00
   url: http://www.meetup.com/phplondon/events/225391362/
   location: doggetts
@@ -483,7 +514,7 @@
   synopsis:
     "During this talk I will give you a guide from a developers perspective of getting code running on Googles container platform Kubernetes. This is a platform we are in progress of migrating to at the Home Office, and this talk will focus on my experiences using it.
 
-    Kubernetes is an open source PaaS platform that you can run internally in your company or run on Google's servers. It's based on Docker, and can manage replication, load balancing and resilience built in. 
+    Kubernetes is an open source PaaS platform that you can run internally in your company or run on Google's servers. It's based on Docker, and can manage replication, load balancing and resilience built in.
 
     I'm going to guide you through getting your code running on it, including how to create your own docker containers and best practices for doing so. I'm then going to show you how to get those containers running on Kubernetes. I'll also show you how to wire multiple containers together, and discuss how to manage resilience.
 
