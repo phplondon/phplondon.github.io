@@ -9,3 +9,7 @@ sainsburys:
 doggetts:
   name: "Doggetts Coat & Badge"
   address: "Blackfriars Bridge, London"
+  
+itech:
+  name: "iTech Media"
+  address: "Macleod House, 10 Parkway, London, NW1 7AA"
